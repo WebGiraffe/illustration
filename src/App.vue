@@ -11,8 +11,71 @@
   </div>
 </template>
 
+<script>
+  export default({
+    data(){
+      return {}
+    },
+    methods:{
+      disabledMouseWheel() {  
+        if (document.addEventListener) {  
+          document.addEventListener('DOMMouseScroll', scrollFunc, false);  
+        }//W3C  
+        window.onmousewheel = document.onmousewheel = scrollFunc;//IE/Opera/Chrome  
+      },
+      scrollFunc(evt) {  
+        evt = evt || window.event;  
+        if(evt.preventDefault) {  
+          // Firefox  
+          evt.preventDefault();  
+          evt.stopPropagation();  
+        } else {  
+          // IE  
+          evt.cancelBubble=true;  
+          evt.returnValue = false;  
+        }  
+        return false;  
+      } 
+    },
+    created() {
+      
+      document.body.parentNode.style.overflow = 'hidden';
+      var path=this.$route.path.split("_");
+      var page=path[path.length-1];
+      var self=this;
+      if(path[1]=="Home"){
+        var timer=null;
+        document.onmousewheel = function(e) {
+          e = e || window.event;
+          var wheelDelta = e.wheelDelta;
+          if (wheelDelta > 0) {
+            if(timer!=null){
+              clearTimeout(timer)
+            }
+            timer=setTimeout(function(){
+              //console.log("鼠标向上滚动"); 
+              page++;
+              self.$router.push('/RJ_Home_Page_'+page)
+            },500)
+          } else {
+            if(timer!=null){
+              clearTimeout(timer)
+            }
+            timer=setTimeout(function(){
+              console.log("鼠标向下滚动");
+              page--;
+              self.$router.push('/RJ_Home_Page_'+page)
+            },500)
+          }
+          
+        }
+      }
+    }
+  })
+</script>
+
 <style>
-body{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box
@@ -21,7 +84,7 @@ body{
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+
   color: #2c3e50;
 }
 /**/

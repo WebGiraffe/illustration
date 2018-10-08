@@ -1,8 +1,7 @@
 <template>
     <div class="app_page_2">
-        <div class="backgroundDiv">
-            <img src="http://192.168.0.103:8080/img/home/RJ_2.jpeg" alt="">
-        </div>
+
+            <img src="http://localhost:8080/img/home/RJ_2.jpeg" alt="">
     </div>
 </template>
 
@@ -23,7 +22,7 @@
 </script>
 
 <style scoped>
-    .app_page_2 .backgroundDiv{
+    .app_page_2{
         position: absolute;
         left:0;
         top:0;
@@ -32,8 +31,8 @@
         /*background: url("http://192.168.0.103:8080/img/home/RJ_2.jpeg") no-repeat center center;*/
         background-size: auto 100%;     
     }
-    .app_page_2 .backgroundDiv img{
-        /*height:99%;*/
+    .app_page_2 img{
+        height:99%;
     }
 </style>
 
