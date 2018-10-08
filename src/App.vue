@@ -38,7 +38,6 @@
       } 
     },
     created() {
-      
       document.body.parentNode.style.overflow = 'hidden';
       var path=this.$route.path.split("_");
       var page=path[path.length-1];
