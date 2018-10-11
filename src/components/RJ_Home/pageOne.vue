@@ -15,11 +15,16 @@
 
         },
         created(){
+            console.log(111);
+            
+
+        },
+        mounted(){
             console.log(document.querySelector('.app_page_1'));
             var ss=document.createElement('img');
-        },
-        mouted(){
-            
+            ss.src="http://localhost:8080/img/home/RJ_2.jpeg";
+            console.log(ss);
+            document.querySelector('.app_page_1').appendChild(ss);
         }
     }
 </script>

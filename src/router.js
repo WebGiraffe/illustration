@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import RJ_Home_Page_1 from './components/RJ_Home/page_1'
-import RJ_Home_Page_2 from './components/RJ_Home/page_2'
-import RJ_Home_Page_3 from './components/RJ_Home/page_3'
-import RJ_Home_Page_4 from './components/RJ_Home/page_4'
-import RJ_Home_Page_5 from './components/RJ_Home/page_5'
+import RJ_HomePage from './views/RJ_HomePage.vue'
+import RJ_Home_Page_1 from './components/RJ_Home/pageOne'
+import RJ_Home_Page_2 from './components/RJ_Home/pageTwo'
+import RJ_Home_Page_3 from './components/RJ_Home/pageThree'
+import RJ_Home_Page_4 from './components/RJ_Home/pageFour'
+import RJ_Home_Page_5 from './components/RJ_Home/pageFive'
 
 Vue.use(Router)
 
@@ -26,6 +27,7 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
+    {path:'/RJ_HomePage',component:RJ_HomePage},
     {path:'/RJ_Home_Page_1',component:RJ_Home_Page_1},
     {path:'/RJ_Home_Page_2',component:RJ_Home_Page_2},
     {path:'/RJ_Home_Page_3',component:RJ_Home_Page_3},
