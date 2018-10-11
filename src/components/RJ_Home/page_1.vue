@@ -15,7 +15,11 @@
 
         },
         created(){
-
+            console.log(document.querySelector('.app_page_1'));
+            var ss=document.createElement('img');
+        },
+        mouted(){
+            
         }
     }
 </script>
