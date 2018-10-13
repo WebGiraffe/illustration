@@ -90,11 +90,11 @@
         transition: all 3s ease  ;
     }
     .slide-down-enter {
-        transform: translateY(1000px);
+        transform: translateY(102%);
         opacity: 0;
     }
     .slide-down-leave-to{
-        transform: translateY(-1000px);
+        transform: translateY(-102%);
         opacity: 0;
     }
 
@@ -105,11 +105,11 @@
         transition: all 3s ease  ;
     }
     .slide-up-enter {
-        transform: translateY(-1000px);
+        transform: translateY(-102%);
         opacity: 0;
     }
     .slide-up-leave-to{
-        transform: translateY(1000px);
+        transform: translateY(102%);
         opacity: 0;
     }
 </style>

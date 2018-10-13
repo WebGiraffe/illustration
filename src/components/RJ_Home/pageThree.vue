@@ -31,7 +31,7 @@
         background-size: auto 100%;     
     }
     .app_page_3 img{
-        height:99%;
+        height:100%;
     }
 </style>
 
