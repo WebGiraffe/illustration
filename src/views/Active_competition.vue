@@ -5,322 +5,79 @@
         <div class="work-nav">
             <div>
                 <ul class="wnav">
-                    <li><a href="#"><img src="img/jyx-active/home3.png" alt=""></a></li>
-                    <li><a href="#">全部</a></li>
-                    <li><a href="#">进行</a></li>
-                    <li><a href="#">已结束</a></li>
-                    <li><a href="#">我的资料</a></li>
+                    <li><router-link to="#"><img src="img/jyx-active/home3.png" alt=""></router-link></li>
+                    <li><router-link to="#">全部</router-link></li>
+                    <li><router-link to="#">进行</router-link></li>
+                    <li><router-link to="#">已结束</router-link></li>
+                    <li><router-link to="#">我的资料</router-link></li>
                 </ul>
                 <ul class="wnav">
-                    <li><a href="#">公司介绍</a></li>
-                    <li><a href="#">活动合作QQ：2090677817</a></li>
+                    <li><router-link to="#">公司介绍</router-link></li>
+                    <li><router-link to="#">活动合作QQ：2090677817</router-link></li>
                 </ul>
             </div>
         </div>
         <div class="wrapper">
-            <a href="#" target="_blank">
+            <router-link to="#" target="_blank">
                 <img src="img/jyx-active/pic_srydfvcj74t9oh5fsgb15bbx8lx36s5r.jpg" alt="">
-            </a>
+            </router-link>
         </div>
     </div>
     <div id="fixBar">
-        <a href="#"></a>
+        <router-link to="#"></router-link>
         <a>
             <img src="img/jyx-active/xcx.jpg" alt="" style="width:75px;margin:1px 0 1px;">
         </a>
-        <a href="#" style="padding:2px">微信小程序</a>
+        <router-link to="#" style="padding:2px">微信小程序</router-link>
     </div>
     <div id="section">
         <div class="list_wrap">
             <ul>
-                <li>
+                <li v-for="item in list" :key="item.aid">
                     <div>
-                        <a href="#">
-                            <img src="img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg" alt="">
-                        </a>
+                        <router-link to="#">
+                            <img :src="item.pic" alt="">
+                        </router-link>
                     </div>
                     <div>
                         <div>
-                            <h3>笔绘宫心「宫廷计」手游同人插画漫画征集大赛</h3>
-                            <p>活动进行中</p>
+                            <h3>{{item.title}}</h3>
+                            <p v-bind:style="{color:item.aid===aid?'#00d084':'#a0a5ad'}">{{item.result | res}}</p>
                         </div>
                         <div>
                             <div>
-                                <div class="date_box">16</div>
+                                <div class="date_box" id="d" v-bind:style="{color:item.aid===aid?'#1a1a1a':'#a0a5ad'}">{{item| date}}</div>
                                 <p>天</p>
                             </div>
                             <div>
-                                <div class="date_box">4</div>
+                                <div class="date_box" id="h" v-bind:style="{color:item.aid===aid?'#1a1a1a':'#a0a5ad'}">{{item| hours}}</div>
                                 <p>时</p>
                             </div>
                             <div>
-                                <div class="date_box">44</div>
+                                <div class="date_box" id="m" v-bind:style="{color:item.aid===aid?'#1a1a1a':'#a0a5ad'}">{{item| minute}}</div>
                                 <p>分</p>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li>
-                        <div>
-                                <a href="#">
-                                    <img src="img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>笔绘宫心「宫廷计」手游同人插画漫画征集大赛</h3>
-                                    <p>活动进行中</p>
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="date_box">16</div>
-                                        <p>天</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">4</div>
-                                        <p>时</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">44</div>
-                                        <p>分</p>
-                                    </div>
-                                </div>
-                            </div>
-                </li>
-                <li>
-                        <div>
-                                <a href="#">
-                                    <img src="img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>笔绘宫心「宫廷计」手游同人插画漫画征集大赛</h3>
-                                    <p>活动进行中</p>
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="date_box">16</div>
-                                        <p>天</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">4</div>
-                                        <p>时</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">44</div>
-                                        <p>分</p>
-                                    </div>
-                                </div>
-                            </div>
-                </li>
-                <li>
-                        <div>
-                                <a href="#">
-                                    <img src="img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>笔绘宫心「宫廷计」手游同人插画漫画征集大赛</h3>
-                                    <p>活动进行中</p>
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="date_box">16</div>
-                                        <p>天</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">4</div>
-                                        <p>时</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">44</div>
-                                        <p>分</p>
-                                    </div>
-                                </div>
-                            </div>
-                </li>
-                <li>
-                        <div>
-                                <a href="#">
-                                    <img src="img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>笔绘宫心「宫廷计」手游同人插画漫画征集大赛</h3>
-                                    <p>活动进行中</p>
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="date_box">16</div>
-                                        <p>天</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">4</div>
-                                        <p>时</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">44</div>
-                                        <p>分</p>
-                                    </div>
-                                </div>
-                            </div>
-                </li>
-                <li>
-                        <div>
-                                <a href="#">
-                                    <img src="img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>笔绘宫心「宫廷计」手游同人插画漫画征集大赛</h3>
-                                    <p>活动进行中</p>
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="date_box">16</div>
-                                        <p>天</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">4</div>
-                                        <p>时</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">44</div>
-                                        <p>分</p>
-                                    </div>
-                                </div>
-                            </div>
-                </li>
-                <li>
-                        <div>
-                                <a href="#">
-                                    <img src="img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>笔绘宫心「宫廷计」手游同人插画漫画征集大赛</h3>
-                                    <p>活动进行中</p>
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="date_box">16</div>
-                                        <p>天</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">4</div>
-                                        <p>时</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">44</div>
-                                        <p>分</p>
-                                    </div>
-                                </div>
-                            </div>
-                </li>
-                <li>
-                        <div>
-                                <a href="#">
-                                    <img src="img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>笔绘宫心「宫廷计」手游同人插画漫画征集大赛</h3>
-                                    <p>活动进行中</p>
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="date_box">16</div>
-                                        <p>天</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">4</div>
-                                        <p>时</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">44</div>
-                                        <p>分</p>
-                                    </div>
-                                </div>
-                            </div>
-                </li>
-                <li>
-                        <div>
-                                <a href="#">
-                                    <img src="img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>笔绘宫心「宫廷计」手游同人插画漫画征集大赛</h3>
-                                    <p>活动进行中</p>
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="date_box">16</div>
-                                        <p>天</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">4</div>
-                                        <p>时</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">44</div>
-                                        <p>分</p>
-                                    </div>
-                                </div>
-                            </div>
-                </li>
-                <li>
-                        <div>
-                                <a href="#">
-                                    <img src="img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>笔绘宫心「宫廷计」手游同人插画漫画征集大赛</h3>
-                                    <p>活动进行中</p>
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="date_box">16</div>
-                                        <p>天</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">4</div>
-                                        <p>时</p>
-                                    </div>
-                                    <div>
-                                        <div class="date_box">44</div>
-                                        <p>分</p>
-                                    </div>
-                                </div>
-                            </div>
-                </li>
             </ul>
             <div class="page">
-                <a href="#">首页</a>
-                <a href="#">上页</a>
-                <a href="#" class="on">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">5</a>
-                <a href="#">下页</a>
-                <a href="#">尾页</a>
+                <router-link to="#">首页</router-link>
+                <router-link to="#">上页</router-link>
+                <router-link to="#" class="on">1</router-link>
+                <router-link to="#">2</router-link>
+                <router-link to="#">3</router-link>
+                <router-link to="#">4</router-link>
+                <router-link to="#">5</router-link>
+                <router-link to="#">下页</router-link>
+                <router-link to="#">尾页</router-link>
             </div>
         </div>
     </div>
     <div class="wrapper_bottom">
-            <a href="#" target="_blank">
+            <router-link to="#" target="_blank">
                 <img src="img/jyx-active/pic_rbc5zndyvpa475j3o01gd4xw0lje8ywu.jpg" alt="">
-            </a>
+            </router-link>
         </div>
         <jyxFooter></jyxFooter>
     </div>
@@ -330,11 +87,25 @@
     import jyxFooter from "@/components/jyxFooter.vue";
     export default{
         data(){
-            return{}
+            return{
+                list:[],
+                aid:1
+            }
         },
         components:{
             jyxHeader,
             jyxFooter
+        },
+        created() {
+            (async function(self){
+                var res=await self.$http.get("http://127.0.0.1:3000/active");
+                self.res=res.data;
+                self.list=self.res;
+                console.log(self.res);
+            })(this)
+        },
+        methods:{
+              
         }
     }
 </script>
@@ -465,7 +236,6 @@
             padding-top: 22px;
             font-size: 15px;
             font-weight: bold;
-            color: #00d084;
         }
         #section>.list_wrap>ul>li>div:last-child>div:last-child{
             display: flex;
@@ -483,7 +253,6 @@
             letter-spacing: 1px;
             line-height: 48px;
             font-weight: bold;
-            color: #1a1a1a;
         }
         #section>.list_wrap>.page{
             text-align: center;

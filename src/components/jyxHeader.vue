@@ -6,40 +6,40 @@
             <div class="nav-content-item">
                 <ul>
                     <li>
-                        <a href="#">作品</a>
+                        <router-link to="#">作品</router-link>
                         <div class="icon"></div>
                         <div class="slide-list">
-                            <a href="#">最新发布</a>
-                            <a href="#">最新获赞</a>
-                            <a href="#">热门作品</a>
-                            <a href="#">作品精选</a>
-                            <a href="#">推荐作者</a>
+                            <router-link to="#">最新发布</router-link>
+                            <router-link to="#">最新获赞</router-link>
+                            <router-link to="#">热门作品</router-link>
+                            <router-link to="#">作品精选</router-link>
+                            <router-link to="#">推荐作者</router-link>
                         </div>
                     </li>
-                    <li><a href="#">活动比赛</a></li>
-                    <li><a href="#">征稿</a></li>
-                    <li><a href="#">客户端</a></li>
+                    <li><router-link to="#">活动比赛</router-link></li>
+                    <li><router-link to="#">征稿</router-link></li>
+                    <li><router-link to="#">客户端</router-link></li>
                     <li>
-                        <a href="#">更多</a>
+                        <router-link to="#">更多</router-link>
                         <div class="icon"></div>
                         <div class="slide-list">
-                            <a href="#">合作关系</a>
-                            <a href="#">帮助中心</a>
-                            <a href="#">官方微博</a>
-                            <a href="#">艺场插画授权</a>
+                            <router-link to="#">合作关系</router-link>
+                            <router-link to="#">帮助中心</router-link>
+                            <router-link to="#">官方微博</router-link>
+                            <router-link to="#">艺场插画授权</router-link>
                         </div>
                     </li>
                     <li>
-                        <a href="#">
+                        <router-link to="#">
                             <img style="height:35px;vertical-align: middle;" src="../../public/img/jyx-active/search.svg" alt="">
-                        </a>
+                        </router-link>
                     </li>
-                    <li><a href="#">插画课程直播</a></li>
+                    <li><router-link to="#">插画课程直播</router-link></li>
                 </ul>
             </div>
             <div class="nav-content-item">
-                <a href="#">注册</a>
-                <a href="#">登录</a>
+                <router-link to="#">注册</router-link>
+                <router-link to="#">登录</router-link>
             </div>
         </div>
         </div>

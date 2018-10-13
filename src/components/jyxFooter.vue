@@ -5,26 +5,26 @@
             <div class="content">
                 <div class="content-item">
                     <p>产品</p>
-                    <a href="#">作品中心</a>
-                    <a href="#">推荐作者</a>
-                    <a href="#">客户端下载</a>
+                    <router-link to="#">作品中心</router-link>
+                    <router-link to="#">推荐作者</router-link>
+                    <router-link to="#">客户端下载</router-link>
                 </div>
                 <div class="content-item">
                     <p>关于</p>
-                    <a href="#">了解我们</a>
-                    <a href="#">新闻动态</a>
-                    <a href="#">合作案例</a>
-                    <a href="#">联系我们</a>
+                    <router-link to="#">了解我们</router-link>
+                    <router-link to="#">新闻动态</router-link>
+                    <router-link to="#">合作案例</router-link>
+                    <router-link to="#">联系我们</router-link>
                 </div>
                 <div class="content-item">
                     <p>友情链接</p>
-                    <a href="#">绘画学院（插画教程）</a>
-                    <a href="#">艺场（正版插画授权）</a>
+                    <router-link to="#">绘画学院（插画教程）</router-link>
+                    <router-link to="#">艺场（正版插画授权）</router-link>
                 </div>
                 <div class="content-item">
                     <p>商务合作</p>
-                    <a href="#">李演羽(Winney)</a>
-                    <a href="#">商务总监QQ: 2090677817</a>
+                    <router-link to="#">李演羽(Winney)</router-link>
+                    <router-link to="#">商务总监QQ: 2090677817</router-link>
                 </div>
             </div>
             <div class="explain">
