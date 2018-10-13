@@ -41,19 +41,19 @@
                     var wheelDelta = e.wheelDelta;
                     var id=self.view.id;
                     if(pause==0){
-                        pause=1;
                         if(wheelDelta>0&&id>0){
+                            pause=1;
                             id--;
                             self.direction='slide-up';
-                            self.view=self.viewlist[id];      
-                        }else if(wheelDelta<=0&&id<6){
+                            self.view=self.viewlist[id];   
+                        }else if(wheelDelta<=0&&id<4){
+                            pause=1;
                             id++;
                             self.direction='slide-down';
                             self.view=self.viewlist[id];  
                         }
-                        setTimeout(function(){
-                            pause=1;
-                        },3000)
+                        if(pause==1)
+                            setTimeout(function(){pause=0;},3000)
                     }
                 }
             }
