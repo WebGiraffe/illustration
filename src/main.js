@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import axios from 'axios'
+import VueLazyload from 'vue-lazyload'
 
 
 Vue.filter("res",function(val){
@@ -67,6 +68,11 @@ Vue.filter("minute",function(item){
 })
 Vue.config.productionTip = false
 Vue.prototype.$http=axios;
+Vue.use(VueLazyload,{
+  preload:3,
+  attempt:1,
+  throttleWait:1000
+});
 
 
 new Vue({

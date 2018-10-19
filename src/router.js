@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import ActiveCompetition from "./views/Active_competition.vue"
+import ErrorPage from "./views/Error.vue"
 
 Vue.use(Router)
 
@@ -13,6 +14,10 @@ export default new Router({
       path:'/active',
       name:'active',
       component:ActiveCompetition
+    },{
+      path:'/*',
+      name:'error',
+      component:ErrorPage
     }
   ]
 })

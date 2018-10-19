@@ -24,7 +24,7 @@
         </div>
     </div>
     <div id="fixBar">
-        <router-link to="#"></router-link>
+        <a href="#"></a>
         <a>
             <img src="img/jyx-active/xcx.jpg" alt="" style="width:75px;margin:1px 0 1px;">
         </a>
@@ -36,7 +36,7 @@
                 <li v-for="item in list" :key="item.aid">
                     <div>
                         <router-link to="#">
-                            <img :src="item.pic" alt="">
+                            <img v-lazy="item.pic" alt="">
                         </router-link>
                     </div>
                     <div>
@@ -62,15 +62,11 @@
                 </li>
             </ul>
             <div class="page">
-                <router-link to="#">首页</router-link>
-                <router-link to="#">上页</router-link>
-                <router-link to="#" class="on">1</router-link>
-                <router-link to="#">2</router-link>
-                <router-link to="#">3</router-link>
-                <router-link to="#">4</router-link>
-                <router-link to="#">5</router-link>
-                <router-link to="#">下页</router-link>
-                <router-link to="#">尾页</router-link>
+                <a href="#" v-if="onClass>0" @click="first(1)">首页</a>
+                <a href="#" @click="pagePrev(tem)" v-if="onClass>0">上页</a>
+                <a href="#" v-for="pno,index in pnos" v-text="pno" @click="pageChange(pno)" :class="{on:index===onClass?true:false}"></a>
+                <a href="#" @click="pageNext(tem1)" v-if="onClass!==pageCounts-1">下页</a>
+                <a href="#" @click="last(pageCounts)" v-if="onClass!==pageCounts-1">尾页</a>
             </div>
         </div>
     </div>
@@ -89,9 +85,15 @@
         data(){
             return{
                 list:[],
-                aid:1
+                aid:1,
+                pnos:this.pnos,
+                onClass:0,
+                tem:0,
+                tem1:1,
+                pageCounts:self.pageCounts
             }
         },
+        //props:["index"],
         components:{
             jyxHeader,
             jyxFooter
@@ -99,13 +101,63 @@
         created() {
             (async function(self){
                 var res=await self.$http.get("http://127.0.0.1:3000/active");
-                self.res=res.data;
-                self.list=self.res;
-                console.log(self.res);
-            })(this)
+                self.res=res.data; 
+                self.list=self.res.data;
+                self.pageCounts=self.res.pageCount;
+                //console.log(self.pageCounts);
+                var pnos=[];
+                for(var pno=1;pno<self.pageCounts+1;pno++){
+                    pnos.push(pno);
+                }
+                self.pnos=pnos;
+            })(this);
         },
         methods:{
-              
+            pageChange(index){
+                this.tem=index;
+                var self=this;
+                var url="http://127.0.0.1:3000/active?pno="+index;
+                this.$http.get(url).then(result=>{
+                    self.list=result.data.data;
+                    //console.log(result);
+                })
+                this.onClass=index-1;
+            },
+            pagePrev(index){
+                index--;
+                var url="http://127.0.0.1:3000/active?pno="+index;
+                this.$http.get(url).then(result=>{
+                    this.list=result.data.data;
+                })
+                this.onClass=index-1;
+                this.tem=index;
+                //alert(index)
+            },
+            pageNext(index){
+                index++;
+                var url="http://127.0.0.1:3000/active?pno="+index;
+                this.$http.get(url).then(result=>{
+                    this.list=result.data.data;
+                })
+                this.onClass=index-1;
+                this.tem1=index;
+                //alert(index);
+            },
+            first(index){
+                var url="http://127.0.0.1:3000/active?pno="+index;
+                this.$http.get(url).then(result=>{
+                    this.list=result.data.data;
+                })
+                this.onClass=index-1;
+            },
+            last(index){
+               var url="http://127.0.0.1:3000/active?pno="+index;
+                this.$http.get(url).then(result=>{
+                    this.list=result.data.data;
+                })
+                this.onClass=index-1;
+                this.tem=index; 
+            }
         }
     }
 </script>
@@ -196,11 +248,11 @@
         }
         #section{
             width: 100%;
-            height: 2510px;
+            /*height: 2510px;*/
         }
         #section>.list_wrap{
             width: 1120px;
-            height: 2510px;
+            /*height: 2510px;*/
             margin: 0 auto;
         }
         #section>.list_wrap>ul{
@@ -219,6 +271,12 @@
         #section>.list_wrap>ul>li>div:first-child>a>img{
             width: 100%;
             cursor: pointer;
+        }
+        #section>.list_wrap>ul>li>div:first-child>a>img:hover{
+            opacity:0.8;
+            transition-duration: .15s;
+            transition-timing-function: linear;
+            transition-delay: 0s;
         }
         #section>.list_wrap>ul>li>div:last-child{
             display: flex;
@@ -256,6 +314,7 @@
         }
         #section>.list_wrap>.page{
             text-align: center;
+            padding-bottom:30px;
         }
         #section>.list_wrap>.page>.on{
             background: #ffbb33;
