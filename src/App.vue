@@ -25,6 +25,9 @@
   padding: 0;
   box-sizing: border-box
 }
+body{
+  font-family: Helvetica,"微软雅黑";
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
