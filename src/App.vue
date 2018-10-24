@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+<<<<<<< HEAD
       <router-view/>
   </div>
 </template>
@@ -19,6 +20,12 @@
   })
 </script>
 
+=======
+    <router-view/>
+  </div>
+</template>
+
+>>>>>>> origin/jia
 <style>
 *{
   margin: 0;
