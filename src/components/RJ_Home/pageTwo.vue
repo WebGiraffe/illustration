@@ -54,14 +54,14 @@
     }
     .app_page_2 .box{
         position: absolute;
-        top:250px;
-        left:200px;
+        top:150px;
+        left:150px;
         display: flex;
         justify-content: space-around;
     }
     .app_page_2 .box .pg-mac-img{
         text-align: center;
-        margin-right: 100px;
+        margin-right: 25px;
     }
     .pg-mac-cont .pg-line-before {
         width: 42px;
@@ -83,7 +83,7 @@
     }
 
 
-     .slide-down-enter-active {
+    .slide-down-enter-active {
         transition: all 3s ease ;
     }
     .slide-down-leave-active {

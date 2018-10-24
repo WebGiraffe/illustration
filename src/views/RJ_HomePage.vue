@@ -148,6 +148,15 @@
 </script>
 
 <style scoped>
+    app_RJ_HomePage{
+        font-family: Helvetica,"微软雅黑";
+    }
+    #app_RJ_HomePage {
+        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #2c3e50;
+    }
     .app_RJ_HomePage .backgroundDiv{
         position: absolute;
         left:0;
@@ -182,7 +191,7 @@
         cursor: pointer;
         text-decoration: none;
     }
-    a:link{
+    .app_RJ_HomePage a:link{
         color: #5678a0;
     }
     .app_RJ_HomePage .aside-bar ul li a span{
@@ -235,7 +244,7 @@
         transform: translateY(-100.5%);
         opacity: 0;
     }
-
+    
     .slide-up-enter-active {
         transition: all .8s ease;
     }
@@ -268,7 +277,7 @@
             opacity: 0;  
         }
     }
-     .pg-next-page{
+    .app_RJ_HomePage .pg-next-page{
         cursor: pointer;
         position: absolute;
         z-index: 100;

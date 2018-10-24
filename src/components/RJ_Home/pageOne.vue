@@ -23,7 +23,7 @@
     </div>
 </template>
 
-<script>
+<script scoped>
     export default {
         data(){
             return {
@@ -89,9 +89,6 @@
         background-position: 0 0px;
         background-repeat: no-repeat;
         text-indent: -9999px;
-    }
-    .app_page_1 .dt-header-right{
-
     }
     #dt-login{
         float: right;
