@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="jyxErr">
         <div class="head404"></div>
  
    	    <div class="txtbg404">
@@ -23,22 +23,22 @@
     
 </script>
 <style scped>
-    body{
+    .jyxErr{
         background-color:#494949;
     }
-    .head404{
+    .jyxErr .head404{
         width:580px;
         height:234px; 
         margin:50px auto 0 auto; 
         background:url("../../public/img/jyx-active/head404.png") no-repeat; 
         } 
-    .txtbg404{ 
+    .jyxErr .txtbg404{ 
         width:499px; 
         height:169px; 
         margin:10px auto 0 auto; 
         background:url("../../public/img/jyx-active/txtbg404.png") no-repeat;
         }
-    .txtbg404 .txtbox{ 
+    .jyxErr .txtbg404 .txtbox{ 
         width:390px; 
         position:relative; 
         top:30px; 
@@ -46,18 +46,18 @@
         color:#eee; 
         font-size:13px;
         } 
-    .txtbg404 .txtbox p {
+    .jyxErr .txtbg404 .txtbox p {
         margin:5px 0; 
         line-height:18px;
         } 
-    .txtbg404 .txtbox .paddingbox { 
+    .jyxErr .txtbg404 .txtbox .paddingbox { 
         padding-top:15px;
         }
-    .txtbg404 .txtbox p a { 
+    .jyxErr .txtbg404 .txtbox p a { 
         color:#eee; 
         text-decoration:none;
         } 
-    .txtbg404 .txtbox p a:hover { 
+    .jyxErr .txtbg404 .txtbox p a:hover { 
         color:#FC9D1D; 
         text-decoration:underline;
         }

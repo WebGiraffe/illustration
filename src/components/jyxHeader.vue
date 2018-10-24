@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <div class="nav">
+        <div class="jyxnav">
         <div class="nav-content">
             <img src="../../public/img/jyx-active/logo4.png" alt="">
             <div class="nav-content-item">
@@ -43,7 +42,7 @@
             </div>
         </div>
         </div>
-    </div>
+  
 </template>
 <script>
     export default{
@@ -54,28 +53,23 @@
     }
 </script>
 <style scoped>
-    *{
-            padding:0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        div.nav{
+         div.jyxnav{
             background: #1A1A1A;
             width: 100%;
             height: 50px;
         }
-        div.nav>div.nav-content{
+        div.jyxnav>div.nav-content{
             width: 1130px;
             height: 50px;
             margin:0 auto;
         }
-        div.nav>div.nav-content>img{
+        div.jyxnav>div.nav-content>img{
             float: left;
             width: 40px;
             height: 40px;
             margin-right:25px;
         }
-        div.nav>div.nav-content>.nav-content-item:nth-child(2)>ul>li{
+        div.jyxnav>div.nav-content>.nav-content-item:nth-child(2)>ul>li{
             list-style: none;
             float: left;
             height: 50px;
@@ -83,32 +77,32 @@
             line-height: 50px;
             position: relative;
         }
-        div.nav-content-item:nth-child(2)>ul>li:nth-child(7)>a{
+        .jyxnav div.nav-content-item:nth-child(2)>ul>li:nth-child(7)>a{
             color: orange;
         }
-        div.nav-content-item:nth-child(2)>ul>li:nth-child(7)>a:hover{
+        .jyxnav div.nav-content-item:nth-child(2)>ul>li:nth-child(7)>a:hover{
             color: #777;
         }
-        div.nav-content-item:nth-child(2)>ul>li>a{
+        .jyxnav div.nav-content-item:nth-child(2)>ul>li>a{
             text-decoration: none;
             font-size: 14px;
             color:#ccc;
             cursor: pointer;
         }
-        div.nav-content-item:nth-child(3){
+        .jyxnav div.nav-content-item:nth-child(3){
             float: right;
             line-height: 50px;
         }
-        div.nav-content-item:nth-child(3)>a{
+       .jyxnav  div.nav-content-item:nth-child(3)>a{
             text-decoration: none;
             font-size: 12px;
             color:#ccc;
             padding-left: 12px;
         }
-        div.nav-content-item:nth-child(3)>a:hover{
+        .jyxnav div.nav-content-item:nth-child(3)>a:hover{
             color: #fff;
         }
-        div.nav-content-item:nth-child(2)>ul>li:first-child>div.icon,div.nav-content-item:nth-child(2)>ul>li:nth-child(5)>div.icon{
+        .jyxnav div.nav-content-item:nth-child(2)>ul>li:first-child>div.icon,div.nav-content-item:nth-child(2)>ul>li:nth-child(5)>div.icon{
             width:10px;
             height:10px;
             border-bottom:5px solid #fff;
@@ -120,7 +114,7 @@
             left:26px;
             visibility: hidden;
         }
-        div.nav-content-item:nth-child(2)>ul>li:first-child>div.slide-list,div.nav-content-item:nth-child(2)>ul>li:nth-child(5)>div.slide-list{
+        .jyxnav div.nav-content-item:nth-child(2)>ul>li:first-child>div.slide-list,div.nav-content-item:nth-child(2)>ul>li:nth-child(5)>div.slide-list{
             width: 118px;
             /*height: 170px;*/
             text-align: center;
@@ -134,7 +128,7 @@
             z-index:100;
             visibility: hidden;
         }
-        div.nav-content-item:nth-child(2)>ul>li:first-child>div.slide-list>a,div.nav-content-item:nth-child(2)>ul>li:nth-child(5)>div.slide-list>a{
+        .jyxnav div.nav-content-item:nth-child(2)>ul>li:first-child>div.slide-list>a,div.nav-content-item:nth-child(2)>ul>li:nth-child(5)>div.slide-list>a{
             text-decoration: none;
             display: block;
             line-height: 34px;
@@ -142,13 +136,13 @@
             cursor:pointer;
             font-size:14px;
         }
-        div.nav-content-item:nth-child(2)>ul>li:first-child>div.slide-list>a:hover, div.nav-content-item:nth-child(2)>ul>li:nth-child(5)>div.slide-list>a:hover{
+        .jyxnav div.nav-content-item:nth-child(2)>ul>li:first-child>div.slide-list>a:hover, div.nav-content-item:nth-child(2)>ul>li:nth-child(5)>div.slide-list>a:hover{
             color: #777;
         }
-        div.nav-content-item:nth-child(2)>ul>li:first-child:hover div.slide-list,div.nav-content-item:nth-child(2)>ul>li:nth-child(5):hover div.slide-list{
+        .jyxnav div.nav-content-item:nth-child(2)>ul>li:first-child:hover div.slide-list,div.nav-content-item:nth-child(2)>ul>li:nth-child(5):hover div.slide-list{
             visibility:visible;
         }
-        div.nav-content-item:nth-child(2)>ul>li:first-child:hover div.icon,div.nav-content-item:nth-child(2)>ul>li:nth-child(5):hover div.icon{
+        .jyxnav div.nav-content-item:nth-child(2)>ul>li:first-child:hover div.icon,div.nav-content-item:nth-child(2)>ul>li:nth-child(5):hover div.icon{
             visibility: visible;
         }
 </style>

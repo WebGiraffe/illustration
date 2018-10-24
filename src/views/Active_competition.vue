@@ -162,17 +162,12 @@
     }
 </script>
 <style scoped>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing: border-box;
-        }
-        body{
+        #jyx{
             font-family: 微软雅黑;
             font-size: 14px;
             line-height: 24px;
         }
-        body a{
+        #jyx a{
             text-decoration: none;
             color:#000;
         }

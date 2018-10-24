@@ -1,5 +1,4 @@
 <template>
-    <div>
         <div id="footer">
         <div class="container">
             <div class="content">
@@ -34,7 +33,6 @@
             </div>
         </div>
     </div>
-    </div>
 </template>
 <script>
     export default{
@@ -45,11 +43,6 @@
     }
 </script>
 <style scoped>
-    *{
-            margin: 0;
-            padding:0;
-            box-sizing: border-box;
-        }
         #footer{
             width:100%;
             background-color: #2c2c2c;
