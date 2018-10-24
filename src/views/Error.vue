@@ -20,23 +20,32 @@
     </div>
 </template>
 <script>
-    
+    export default({
+        data(){
+            return{}
+        },
+        methods:{
+            
+        }
+    })
 </script>
-<style scped>
+<style scoped>
     .jyxErr{
+        height: 800px;
+        overflow: hidden;
         background-color:#494949;
     }
     .jyxErr .head404{
         width:580px;
         height:234px; 
         margin:50px auto 0 auto; 
-        background:url("../../public/img/jyx-active/head404.png") no-repeat; 
+        background:url("/img/jyx-active/head404.png") no-repeat; 
         } 
     .jyxErr .txtbg404{ 
         width:499px; 
         height:169px; 
         margin:10px auto 0 auto; 
-        background:url("../../public/img/jyx-active/txtbg404.png") no-repeat;
+        background:url("/img/jyx-active/txtbg404.png") no-repeat;
         }
     .jyxErr .txtbg404 .txtbox{ 
         width:390px; 

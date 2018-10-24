@@ -64,7 +64,7 @@
             <div class="page">
                 <a href="#" v-if="onClass>0" @click="first(1)">首页</a>
                 <a href="#" @click="pagePrev(tem)" v-if="onClass>0">上页</a>
-                <a href="#" v-for="pno,index in pnos" v-text="pno" @click="pageChange(pno)" :class="{on:index===onClass?true:false}"></a>
+                <a href="#" v-for="(pno,index) in pnos" :key="index" v-text="pno" @click="pageChange(pno)" :class="{on:index===onClass?true:false}"></a>
                 <a href="#" @click="pageNext(tem1)" v-if="onClass!==pageCounts-1">下页</a>
                 <a href="#" @click="last(pageCounts)" v-if="onClass!==pageCounts-1">尾页</a>
             </div>
@@ -99,6 +99,7 @@
             jyxFooter
         },
         created() {
+            document.body.parentNode.style.overflow = 'auto';
             (async function(self){
                 var res=await self.$http.get("http://127.0.0.1:3000/active");
                 self.res=res.data; 

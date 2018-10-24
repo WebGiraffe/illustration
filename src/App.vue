@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-<<<<<<< HEAD
+    <transition name="fade1">
       <router-view/>
+    </transition>
+      
   </div>
 </template>
 
@@ -15,17 +17,11 @@
       
     },
     created() {
-      document.body.parentNode.style.overflow = 'hidden';
+      
     }
   })
 </script>
 
-=======
-    <router-view/>
-  </div>
-</template>
-
->>>>>>> origin/jia
 <style>
 *{
   margin: 0;
@@ -33,4 +29,29 @@
   box-sizing: border-box
 }
 
+    .fade1-enter-active {
+        transition: all 3s ease ;
+    }
+    .fade1-leave-active {
+        transition: all 3s ease  ;
+    }
+    .fade1-enter {
+        opacity: 0;
+    }
+    .fade1-leave-to{
+        opacity: 0;
+    }
+
+    .fade1-enter-active {
+        transition: all 3s ease;
+    }
+    .fade1-leave-active {
+        transition: all 3s ease  ;
+    }
+    .fade1-enter {
+        opacity: 0;
+    }
+    .fade1-leave-to{
+        opacity: 0;
+    }
 </style>

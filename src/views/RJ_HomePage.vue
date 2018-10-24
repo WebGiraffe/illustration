@@ -123,6 +123,7 @@
             }
         },
         created(){
+            document.body.parentNode.style.overflow = 'hidden';
             this.setMouseWheel();
         },
         mounted(){
