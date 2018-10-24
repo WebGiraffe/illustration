@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
 import ActiveCompetition from "./views/Active_competition.vue"
 import ErrorPage from "./views/Error.vue"
 

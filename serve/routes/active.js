@@ -27,7 +27,7 @@ router.get('/',(req,res)=>{
         obj.data=result;
         res.writeHead(200,{
             "Content-Type":"application/json;charset=utf-8",
-            "Access-Control-Allow-Origin":"http://localhost:8080"
+            "Access-Control-Allow-Origin":"*"
         })
         res.write(JSON.stringify(obj))
         res.end();
