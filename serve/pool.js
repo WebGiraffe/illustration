@@ -6,4 +6,3 @@ var pool=mysql.createPool({
     database:'illustration',
     connectionLimit:10
 })
-module.exports = pool;
