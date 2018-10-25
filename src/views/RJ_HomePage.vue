@@ -37,8 +37,8 @@
 <script>
     import pageOne from "@/components/RJ_Home/pageOne.vue";
     import pageTwo from "@/components/RJ_Home/pageTwo.vue";
-    import pageThree from "@/components/RJ_Home/pageOne.1.vue";
-    import pageFour from "@/components/RJ_Home/pageFour.vue";
+    import pageThree from "@/components/RJ_Home/pageFour.vue";
+    import pageFour from "@/components/RJ_Home/pageOne.1.vue";
     import pageFive from "@/components/RJ_Home/pageFive.vue";
     export default {
         data(){

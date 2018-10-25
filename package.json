@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "cors": "^2.8.4",
     "mysql": "^2.16.0",
     "vue": "^2.5.17",
     "vue-lazyload": "^1.2.6",

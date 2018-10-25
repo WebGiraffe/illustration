@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import RJ_HomePage from './views/RJ_HomePage.vue'
 import ActiveCompetition from "./views/Active_competition.vue"
 import ErrorPage from "./views/Error.vue"
+import rain from "@/components/RJ_Home/rain.vue"
+import index from "./views/index.vue"
 
 Vue.use(Router)
 
@@ -12,6 +14,8 @@ export default new Router({
   routes: [
     {path:'/RJ_HomePage',component:RJ_HomePage},
     {path:'/active',component:ActiveCompetition},
+    {path:'/rain',component:rain},
+    {path:'/index',component:index},
     {path:'/*',component:ErrorPage}
   ]
 })

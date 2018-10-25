@@ -51,6 +51,8 @@
         width:100%;
         background-size: auto 100%;   
         box-sizing: border-box;
+        background: url(/img/home/shanshui.png) no-repeat;
+        background-size: cover
     }
     .app_page_2 .box{
         position: absolute;
@@ -58,10 +60,15 @@
         left:150px;
         display: flex;
         justify-content: space-around;
+        
     }
     .app_page_2 .box .pg-mac-img{
         text-align: center;
         margin-right: 25px;
+    }
+    .pg-mac-cont{
+        width:300px;
+        overflow: hidden;
     }
     .pg-mac-cont .pg-line-before {
         width: 42px;

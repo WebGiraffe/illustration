@@ -1,11 +1,12 @@
 <template>
     <div class="app_page_4">
-
             <img src="http://localhost:8080/img/home/RJ_4.jpeg" alt="">
+            <rain></rain>
     </div>
 </template>
 
 <script>
+import rain from "@/components/RJ_Home/rain.vue"
     export default {
         data(){
             return {
@@ -17,6 +18,9 @@
         },
         created(){
             
+        },
+        components:{
+            rain
         }
     }
 </script>
@@ -32,6 +36,9 @@
     }
     .app_page_4 img{
         height:100%;
+        width: 100%;
+        min-width: 1361px;
+        min-height:752px;
     }
 </style>
 
