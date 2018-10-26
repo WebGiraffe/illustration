@@ -74,10 +74,10 @@
         background-position: center;
     }
     .app_page_1 .box{
-            display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
     }
     .app_page_1 .dt-header{
         position: absolute;
