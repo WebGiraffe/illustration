@@ -2,8 +2,12 @@ const express=require('express');
 const bodyParser=require('body-parser');
 const img = require('./routes/bigimg.js');
 const user = require('./routes/user.js');
+const yanzhen=require('./routes/yanzhen.js')
 const app=express();
 const cors = require("cors");
+app.use(bodyParser.urlencoded({
+    extended:false
+}))
 app.use(cors({
     origin:["http://localhost:8080"],
     credentials:true
@@ -22,3 +26,4 @@ app.use('/active',active);
 
 app.use("/img",img);
 app.use("/user",user);
+app.use('/yanzhen',yanzhen)

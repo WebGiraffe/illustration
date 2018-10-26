@@ -5,9 +5,12 @@
                 <div class="dt-wrap">
                     <router-link to="#">涂鸦王国</router-link>
                     <div class="dt-header-right">
-                        <router-link to="#" id="dt-login">登录</router-link>
+                        <router-link to="/login" id="dt-login" v-show="!isLogin">登录</router-link>
+                        <router-link to="#" id="dt-login" v-show="isLogin">欢迎：{{username}} </router-link>
                         <div id="dt-line"></div>
-                        <router-link to="#" id="dt-register">注册</router-link>
+                        <div id="dt-register" v-show="isLogin" @click="existLogin">退出</div>   
+                        <router-link to="/login" id="dt-register" v-show="!isLogin">注册</router-link>
+                          
                     </div>
                 </div>
             </div>
@@ -27,16 +30,25 @@
     export default {
         data(){
             return {
-
+                isLogin:false,
+                username:''
             }
         },
         methods:{
             onBlackBack(e){
                 e.target.style.background='rgba(0,0,0,0)';
+            },
+            existLogin(){
+                window.sessionStorage.removeItem('username');
+                window.sessionStorage.removeItem('isLogin');
+                this.isLogin=false;
             }
         },
         created(){
-            
+            var isL=window.sessionStorage.getItem('isLogin');
+            var uname=window.sessionStorage.getItem('username');
+            this.isLogin=isL;
+            this.username=uname;
         },
         mounted(){
         }
@@ -71,10 +83,11 @@
         position: absolute;
         top: 0;
         width: 100%;
-        background: rgba(218, 230, 230, 0.8);
+        background: rgba(255, 255, 255, 1);
         height: 64px;
         z-index: 998;
         font-size: 14px;
+        border-bottom:0.5px solid #aaa
     }
     .app_page_1 .dt-header .dt-wrap{
         width: 1000px;
@@ -82,13 +95,14 @@
     }
     .app_page_1 .dt-header .dt-wrap>a{
         float: left;
-        width: 79px;
+        width: 200px;
         height: 64px;
-        background-image: url(/img/home/logo.png);
+        background-image: url(/img/logo2.jpg);
         background-size: contain;
         background-position: 0 0px;
         background-repeat: no-repeat;
         text-indent: -9999px;
+        margin-top: 12px;
     }
     #dt-login{
         float: right;
@@ -129,7 +143,7 @@
         margin-top: -100px;
     }
     .dt-content .pg-logo{
-            width: 400px;
+        width: 400px;
     }
     .dt-content .pg-title{
         padding-top: 44px;

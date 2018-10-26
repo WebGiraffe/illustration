@@ -5,6 +5,7 @@ import ActiveCompetition from "./views/Active_competition.vue"
 import ErrorPage from "./views/Error.vue"
 import rain from "@/components/RJ_Home/rain.vue"
 import index from "./views/index.vue"
+import login from "./views/login.vue"
 
 Vue.use(Router)
 
@@ -16,6 +17,7 @@ export default new Router({
     {path:'/active',component:ActiveCompetition},
     {path:'/rain',component:rain},
     {path:'/index',component:index},
+    {path:'/login',component:login},
     {path:'/*',component:ErrorPage}
   ]
 })
