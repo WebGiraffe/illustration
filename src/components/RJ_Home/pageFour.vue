@@ -1,6 +1,6 @@
 <template>
     <div class="app_page_4">
-            <img src="http://localhost:8080/img/home/RJ_4.jpeg" alt="">
+            <img src="/img/home/RJ_4.jpeg" alt="">
             <rain></rain>
     </div>
 </template>

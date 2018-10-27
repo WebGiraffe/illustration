@@ -1,7 +1,7 @@
 <template>
     <div class="app_page_3">
 
-            <img src="http://localhost:8080/img/home/RJ_3.jpeg" alt="">
+            <img src="/img/home/RJ_3.jpeg" alt="">
     </div>
 </template>
 

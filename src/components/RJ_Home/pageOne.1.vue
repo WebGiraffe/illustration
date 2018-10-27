@@ -4,7 +4,7 @@
         <ul class="img_container">
             <transition name="slide-down">
                 <li   v-show="isShow">
-                    <img src="http://localhost:8080/img/home/RJ_1.jpeg" alt="">
+                    <img src="/img/home/RJ_1.jpeg" alt="">
                     <div class="black-back" @click="onBlackBack($event)">
                         征文
                     </div>
@@ -12,7 +12,7 @@
             </transition>
             <transition name="slide-up">
                 <li   v-show="isShow">
-                    <img src="http://localhost:8080/img/home/RJ_6.jpeg" alt="">
+                    <img src="/img/home/RJ_6.jpeg" alt="">
                     <div class="black-back" @click="onBlackBack($event)">
                         活动比赛
                     </div>
@@ -20,7 +20,7 @@
             </transition>
             <transition name="slide-down">
                 <li  v-show="isShow">
-                    <img src="http://localhost:8080/img/home/RJ_7.jpeg" alt="">
+                    <img src="/img/home/RJ_7.jpeg" alt="">
                     <div class="black-back" @click="onBlackBack($event)">
                         团队风采
                     </div>
@@ -28,7 +28,7 @@
             </transition>
             <transition name="slide-up">
                 <li   v-show="isShow">
-                    <img src="http://localhost:8080/img/home/RJ_8.jpeg" alt="">
+                    <img src="/img/home/RJ_8.jpeg" alt="">
                             <div class="black-back" @click="onBlackBack($event)"></div>
                 </li>
             </transition>           

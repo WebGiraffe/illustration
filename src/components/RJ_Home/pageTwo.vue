@@ -3,7 +3,7 @@
         <div class="box">
             <transition name="slide-down">
                 <div class="pg-mac-img" v-show="isShow">
-                    <img src="img/home/20160818104653_VsaUu.png" alt="">
+                    <img src="/img/home/20160818104653_VsaUu.png" alt="">
                 </div>
             </transition>
             <transition name="slide-up">
