@@ -126,6 +126,29 @@
             document.body.parentNode.style.overflow = 'hidden';
             this.setMouseWheel();
 
+            document.onkeydown=(e)=>{
+                var isie = (document.all) ? true:false;
+                var key;
+                if(isie){
+                    key = window.event.keyCode;
+                }else{
+                    key = e.which;
+                }
+                if(key==37){
+                    //alert('left');
+                }
+                if(key==38){
+                    //alert('top');
+                    this.imgClick();
+                }
+                if(key==39){
+                    //alert('right');
+                }
+                if(key==40){
+                    //alert('down');
+                    this.imgClickDown();
+                }
+            }
         },
         mounted(){
         },

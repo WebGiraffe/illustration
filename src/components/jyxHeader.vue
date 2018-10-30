@@ -37,8 +37,8 @@
                 </ul>
             </div>
             <div class="nav-content-item">
-                <router-link to="#">注册</router-link>
-                <router-link to="#">登录</router-link>
+                <router-link to="/login">{{usename}}</router-link>
+                <router-link to="/login">{{log}}</router-link>
             </div>
         </div>
         </div>
@@ -48,7 +48,27 @@
     export default{
         name:"jyxHeader",
         data(){
-            return{}
+            return{
+                usename:'注册',
+                log:'登录'
+            }
+        },
+        methods:{
+            justifyIsLogin(){
+                var isL=window.sessionStorage.getItem('isLogin');
+                var uname=window.sessionStorage.getItem('username');
+                if(isL==true&&uname==true){
+                    this.usename=uname;
+                    this.log='注销';
+                }else{
+                    this.usename='注册',
+                    this.log='登录';
+                }
+                
+            }
+        },
+        created(){
+            this.justifyIsLogin();
         }
     }
 </script>

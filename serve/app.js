@@ -3,6 +3,7 @@ const bodyParser=require('body-parser');
 const img = require('./routes/bigimg.js');
 const user = require('./routes/user.js');
 const yanzhen=require('./routes/yanzhen.js')
+const solicit=require('./routes/solicit.js');
 const app=express();
 const cors = require("cors");
 app.use(bodyParser.urlencoded({
@@ -26,4 +27,5 @@ app.use('/active',active);
 
 app.use("/img",img);
 app.use("/user",user);
-app.use('/yanzhen',yanzhen)
+app.use('/yanzhen',yanzhen);
+app.use('/solicit',solicit);
