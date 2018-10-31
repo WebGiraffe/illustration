@@ -87,14 +87,14 @@
                 onClass:0,
                 tem:0,
                 tem1:1,
-                pageCount:self.pageCounts
+                pageCounts:1
             }
         },
         methods:{
             pageChange(index){
                 this.tem=index;
                 var self=this;
-                var url="http://127.0.0.1:3000/solicit/list?pno="+index;
+                var url="http://www.qiaxiaojiu.com:3307/solicit/list?pno="+index;
                 this.$http.get(url).then(result=>{
                     self.list=result.data.data;
                 })
@@ -102,7 +102,7 @@
             },
             pagePrev(index){
                 index--;
-                var url="http://127.0.0.1:3000/solicit/list?pno="+index;
+                var url="http://www.qiaxiaojiu.com:3307/solicit/list?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })
@@ -112,7 +112,7 @@
             },
             pageNext(index){
                 index++;
-                var url="http://127.0.0.1:3000/solicit/list?pno="+index;
+                var url="http://www.qiaxiaojiu.com:3307/solicit/list?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })
@@ -121,14 +121,14 @@
                 //alert(index);
             },
             first(index){
-                var url="http://127.0.0.1:3000/solicit/list?pno="+index;
+                var url="http://www.qiaxiaojiu.com:3307/solicit/list?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })
                 this.onClass=index-1;
             },
             last(index){
-               var url="http://127.0.0.1:3000/solicit/list?pno="+index;
+               var url="http://www.qiaxiaojiu.com:3307/solicit/list?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })
@@ -137,9 +137,10 @@
             }
         },
         created() {
+            document.body.parentNode.style.overflow = 'auto';
             var self=this;
             $.ajax({
-                url:"http://127.0.0.1:3000/solicit/list",
+                url:"http://www.qiaxiaojiu.com:3307/solicit/list",
                 type:"get",
                 dataType:"json",
                 success:function(res){
@@ -172,7 +173,7 @@ body{background:#E9ECEF;}
 a{text-decoration: none;}
 li{list-style:none;}
 div.header{width:1120px;margin:0 auto;position:relative;margin-top:20px;}
-div.header-left{width:800px;height:240px;padding-top:30px;background:#fff;border-radius:5px;}
+div.header-left{width:800px;height:1090px;padding-top:30px;background:#fff;border-radius:5px;}
 div.header-left>p{font-size:20px;padding-left:18px;padding-bottom:20px;}
 span.title{font-size:14px;padding-left:18px;padding-right:15px;}
 div.choose{margin-bottom:45px;}

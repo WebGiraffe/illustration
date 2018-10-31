@@ -1,9 +1,11 @@
-const express=require('express');
+﻿const express=require('express');
 const bodyParser=require('body-parser');
 const img = require('./routes/bigimg.js');
 const user = require('./routes/user.js');
 const yanzhen=require('./routes/yanzhen.js')
 const solicit=require('./routes/solicit.js');
+const index=require("./routes/index");
+const works=require("./routes/works");
 const app=express();
 const cors = require("cors");
 app.use(bodyParser.urlencoded({
@@ -13,6 +15,8 @@ app.use(cors({
     origin:["http://localhost:8080"],
     credentials:true
 }))
+
+app.use(express.static('public'))
 
 /*路由 */
 var example=require('./routes/example')
@@ -29,3 +33,6 @@ app.use("/img",img);
 app.use("/user",user);
 app.use('/yanzhen',yanzhen);
 app.use('/solicit',solicit);
+
+app.use("/index",index);
+app.use("/works",works);

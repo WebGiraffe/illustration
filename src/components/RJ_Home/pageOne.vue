@@ -18,7 +18,7 @@
                 <img class="pg-logo" src="img/home/logo1.png" alt="">
                 <div class="pg-title">中国人气最高的CG艺术家交流学习平台！</div>
                 <div class="pg-subtitle">加入我们，与百万画师一起玩涂鸦王国！</div>
-                <router-link to="#" class="to-be">
+                <router-link to="index" class="to-be">
                     <div class="to-be-btn">进入首页 ></div>
                 </router-link>
             </div>

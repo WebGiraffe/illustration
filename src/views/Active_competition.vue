@@ -101,7 +101,7 @@
         created() {
             document.body.parentNode.style.overflow = 'auto';
             (async function(self){
-                var res=await self.$http.get("http://127.0.0.1:3000/active");
+                var res=await self.$http.get("http://www.qiaxiaojiu.com:3307/active");
                 self.res=res.data; 
                 self.list=self.res.data;
                 self.pageCounts=self.res.pageCount;
@@ -117,7 +117,7 @@
             pageChange(index){
                 this.tem=index;
                 var self=this;
-                var url="http://127.0.0.1:3000/active?pno="+index;
+                var url="http://www.qiaxiaojiu.com:3307/active?pno="+index;
                 this.$http.get(url).then(result=>{
                     self.list=result.data.data;
                     //console.log(result);
@@ -126,7 +126,7 @@
             },
             pagePrev(index){
                 index--;
-                var url="http://127.0.0.1:3000/active?pno="+index;
+                var url="http://www.qiaxiaojiu.com:3307/active?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })
@@ -136,7 +136,7 @@
             },
             pageNext(index){
                 index++;
-                var url="http://127.0.0.1:3000/active?pno="+index;
+                var url="http://www.qiaxiaojiu.com:3307/active?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })
@@ -145,14 +145,14 @@
                 //alert(index);
             },
             first(index){
-                var url="http://127.0.0.1:3000/active?pno="+index;
+                var url="http://www.qiaxiaojiu.com:3307/active?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })
                 this.onClass=index-1;
             },
             last(index){
-               var url="http://127.0.0.1:3000/active?pno="+index;
+               var url="http://www.qiaxiaojiu.com:3307/active?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })

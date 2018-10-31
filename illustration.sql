@@ -20,47 +20,47 @@ CREATE TABLE active_competition(
     end DATETIME,
     result BOOL
 );
-INSERT INTO active_competition VALUES(NULL,"笔绘宫心「宫廷计」手游同人插画漫画征集大...","http://localhost:8080/img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg","2018-9-28 0:0:0","2018-11-28 0:0:0",1);
-INSERT INTO active_competition VALUES(NULL,"蒙牛真果粒一夏变美粒","http://localhost:8080/img/jyx-active/pic_wrrfrm5gk1n51apdgxynt11ugktn1ty9.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"剑网3九周年同人嘉年华","http://localhost:8080/img/jyx-active/pic_t9jrnopzuxrdr7wgz2v9ikezf8b0of4t.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"英雄归来像素风绘画大赛","http://localhost:8080/img/jyx-active/pic_iqcfax7afzwqhrr8lwgvcjfegcsngc6o.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"少年三国志创三国计划同人绘画大赛-与...","http://localhost:8080/img/jyx-active/pic_m6ab71zdnfx83j5pwtywlkkfik0mmynp.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"中国公益插画大赛","http://localhost:8080/img/jyx-active/pic_c48nroemiku84phsf9316ipblj86712w.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"艾兰特同人创意大赛","http://localhost:8080/img/jyx-active/pic_0nanaqim1rlkryctwltd7p207hkhdfsp.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"梦幻西游同人绘画创意大赛-梦灵珑","http://localhost:8080/img/jyx-active/pic_02fqvlfst65h3mbvhfl1znrgqamk8vjx.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"魂斗罗像素画大赛","http://localhost:8080/img/jyx-active/pic_4dwybpdl6t6no6blp1i6gbewf6872n41.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"天谕天空之誓插画大赛","http://localhost:8080/img/jyx-active/pic_9cczvrj61m5pybbhpmr07juul74gln49.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"王者荣耀主题漫画征集大赛","http://localhost:8080/img/jyx-active/150225265834720.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"《新琅琊榜》插画漫画征集大赛","http://localhost:8080/img/jyx-active/150028009650276.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"妖尾同人征集大赛","http://localhost:8080/img/jyx-active/pic_wvi2959j0fpyq0tmtgd4p44i47zsuai2.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"汇桔网吉祥物创意涂鸦设计大赛","http://localhost:8080/img/jyx-active/150060764989522.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"十万个冷笑话2同人大赛","http://localhost:8080/img/jyx-active/149541683626854.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"剑网3八周年漫画插画大赛","http://localhost:8080/img/jyx-active/149258665492903.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"“熊出没”人物形象征集大赛","http://localhost:8080/img/jyx-active/149873143843992.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"极品飞车OL创意车贴大赛","http://localhost:8080/img/jyx-active/149864886075945.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"梦幻西游手游同人插画大赛","http://localhost:8080/img/jyx-active/148982354734284.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"天天酷跑","http://localhost:8080/img/jyx-active/148956058993182.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"龙之谷手游同人插画大赛","http://localhost:8080/img/jyx-active/148956057412288.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"TGP发现更大的游戏世界—原创大赛","http://localhost:8080/img/jyx-active/148982355994797.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"《花蕾》杂志卡通形象设计大赛","http://localhost:8080/img/jyx-active/148982360261162.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"器灵人设同人征集大赛","http://localhost:8080/img/jyx-active/148956039493177.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"侍魂OL同人插画大赛","http://localhost:8080/img/jyx-active/148956036690692.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"QQ游戏大厅创意绘画大赛","http://localhost:8080/img/jyx-active/148956034385312.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"影武者原创潮流插画大赛","http://localhost:8080/img/jyx-active/148956031221025.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"诛仙","http://localhost:8080/img/jyx-active/148956055077636.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"古剑奇谭","http://localhost:8080/img/jyx-active/148982358338802.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"晨星科幻美术大赛","http://localhost:8080/img/jyx-active/148956025218919.jpg","2018-9-8 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"斗鱼鲨鱼娘创意原画征集","http://localhost:8080/img/jyx-active/148956018446154.jpg","2018-9-8 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"阴阳师手游同人插画征集大赛","http://localhost:8080/img/jyx-active/148956015071918.jpg","2018-9-8 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"御剑情缘&青丘狐传说","http://localhost:8080/img/jyx-active/148956011872943.jpg","2018-9-8 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"爵迹","http://localhost:8080/img/jyx-active/148955994896944.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"隅田川品牌形象设计征集大赛","http://localhost:8080/img/jyx-active/148955992282266.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"极彩色的魔术师","http://localhost:8080/img/jyx-active/148982363187779.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"蘑菇娘二次人设征集大赛","http://localhost:8080/img/jyx-active/148982365510803.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"剑网3七周年同人插画大赛","http://localhost:8080/img/jyx-active/148982368097134.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"原创公益漫画大赛","http://localhost:8080/img/jyx-active/148982372859259.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"天谕杯第二届同人绘画大赛","http://localhost:8080/img/jyx-active/148955979121420.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
-INSERT INTO active_competition VALUES(NULL,"剑网三漫画插画大赛","http://localhost:8080/img/jyx-active/148982369624041.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"笔绘宫心「宫廷计」手游同人插画漫画征集大...","http://www.qiaxiaojiu.com:80/img/jyx-active/pic_k7mvt9r2s0mj51a421yrb8w3vcti5914.jpg","2018-9-28 0:0:0","2018-11-28 0:0:0",1);
+INSERT INTO active_competition VALUES(NULL,"蒙牛真果粒一夏变美粒","http://www.qiaxiaojiu.com:80/img/jyx-active/pic_wrrfrm5gk1n51apdgxynt11ugktn1ty9.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"剑网3九周年同人嘉年华","http://www.qiaxiaojiu.com:80/img/jyx-active/pic_t9jrnopzuxrdr7wgz2v9ikezf8b0of4t.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"英雄归来像素风绘画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/pic_iqcfax7afzwqhrr8lwgvcjfegcsngc6o.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"少年三国志创三国计划同人绘画大赛-与...","http://www.qiaxiaojiu.com:80/img/jyx-active/pic_m6ab71zdnfx83j5pwtywlkkfik0mmynp.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"中国公益插画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/pic_c48nroemiku84phsf9316ipblj86712w.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"艾兰特同人创意大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/pic_0nanaqim1rlkryctwltd7p207hkhdfsp.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"梦幻西游同人绘画创意大赛-梦灵珑","http://www.qiaxiaojiu.com:80/img/jyx-active/pic_02fqvlfst65h3mbvhfl1znrgqamk8vjx.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"魂斗罗像素画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/pic_4dwybpdl6t6no6blp1i6gbewf6872n41.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"天谕天空之誓插画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/pic_9cczvrj61m5pybbhpmr07juul74gln49.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"王者荣耀主题漫画征集大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/150225265834720.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"《新琅琊榜》插画漫画征集大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/150028009650276.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"妖尾同人征集大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/pic_wvi2959j0fpyq0tmtgd4p44i47zsuai2.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"汇桔网吉祥物创意涂鸦设计大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/150060764989522.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"十万个冷笑话2同人大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/149541683626854.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"剑网3八周年漫画插画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/149258665492903.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"“熊出没”人物形象征集大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/149873143843992.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"极品飞车OL创意车贴大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/149864886075945.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"梦幻西游手游同人插画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148982354734284.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"天天酷跑","http://www.qiaxiaojiu.com:80/img/jyx-active/148956058993182.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"龙之谷手游同人插画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148956057412288.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"TGP发现更大的游戏世界—原创大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148982355994797.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"《花蕾》杂志卡通形象设计大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148982360261162.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"器灵人设同人征集大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148956039493177.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"侍魂OL同人插画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148956036690692.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"QQ游戏大厅创意绘画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148956034385312.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"影武者原创潮流插画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148956031221025.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"诛仙","http://www.qiaxiaojiu.com:80/img/jyx-active/148956055077636.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"古剑奇谭","http://www.qiaxiaojiu.com:80/img/jyx-active/148982358338802.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"晨星科幻美术大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148956025218919.jpg","2018-9-8 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"斗鱼鲨鱼娘创意原画征集","http://www.qiaxiaojiu.com:80/img/jyx-active/148956018446154.jpg","2018-9-8 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"阴阳师手游同人插画征集大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148956015071918.jpg","2018-9-8 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"御剑情缘&青丘狐传说","http://www.qiaxiaojiu.com:80/img/jyx-active/148956011872943.jpg","2018-9-8 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"爵迹","http://www.qiaxiaojiu.com:80/img/jyx-active/148955994896944.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"隅田川品牌形象设计征集大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148955992282266.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"极彩色的魔术师","http://www.qiaxiaojiu.com:80/img/jyx-active/148982363187779.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"蘑菇娘二次人设征集大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148982365510803.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"剑网3七周年同人插画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148982368097134.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"原创公益漫画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148982372859259.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"天谕杯第二届同人绘画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148955979121420.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
+INSERT INTO active_competition VALUES(NULL,"剑网三漫画插画大赛","http://www.qiaxiaojiu.com:80/img/jyx-active/148982369624041.jpg","2018-9-28 0:0:0","2018-10-8 0:0:0",0);
 
 
 CREATE TABLE `ch_user`(
@@ -79,6 +79,7 @@ INSERT INTO `ch_user` VALUES ('3', 'doudou', '123456', 'dou@qq.com', '1350123456
 
 CREATE TABLE zjl_user(
   id INT PRIMARY KEY AUTO_INCREMENT,
+  wid INT,
   user_name VARCHAR(32),
   address VARCHAR(32),
   renqi INT,
@@ -87,44 +88,69 @@ CREATE TABLE zjl_user(
   signature VARCHAR(256),
   renzheng VARCHAR(128)
 );
-INSERT INTO zjl_user VALUES(null,'西愚人','北京',5683,78,'img/headerimg.jfif','欢迎关注我的微博@西愚人','插画师');
+INSERT INTO zjl_user VALUES(null,0,'西愚人','其他 地区',5683,78,'http://www.qiaxiaojiu.com:80/img/headerimg.jfif','欢迎关注我的微博@西愚人','插画师');
 
-INSERT INTO zjl_user VALUES(null,"违章","福建",10635,78,"img/headerimg.jfif","漫画人、多题材树脂画倡导者、策展人。","树脂画手艺人、插画师");
+INSERT INTO zjl_user VALUES(null,1,"旗蓝yonier",null,10635,78,"http://www.qiaxiaojiu.com:80/img/160x160 (5).jfif","漫画人、多题材树脂画倡导者、策展人。","树脂画手艺人、插画师");
 
-INSERT INTO zjl_user VALUES(null,"冯渡","浙江",5431,456,"img/headerimg.jfif","微博：-哪森-",null);
+INSERT INTO zjl_user VALUES(null,2,"風吹十二","浙江",5431,456,"http://www.qiaxiaojiu.com:80/img/160x160 (6).jfif",null,null);
 
-INSERT INTO zjl_user VALUES(null,"酥元棠","山西",7534,16545,"img/headerimg.jfif",null,"插画师");
+INSERT INTO zjl_user VALUES(null,3,"麦伢","山东 青岛",7534,16545,"http://www.qiaxiaojiu.com:80/img/160x160 (7).jfif","微博 麦伢maiya
+
+个人画集《国产青春》现已上市","插画师");
+INSERT INTO zjl_user VALUES(null,4,"MORNCOLOUR","江苏 无锡",44565,16545,"http://www.qiaxiaojiu.com:80/img/160x160 (8).jfif","动漫漫画 插画设计
+约稿QQ503472794
+微博MORNCOLOUR","插画师");
 
 
 
 CREATE TABLE zjl_comment(
   id INT PRIMARY KEY AUTO_INCREMENT,
-  uid INT,
+  wid INT,
   user_name VARCHAR(32),
-  address VARCHAR(32),
+  address VARCHAR(128),
   commenttime VARCHAR(32),
   comment VARCHAR(256)
 );
 
-INSERT INTO zjl_comment VALUES(null,1,"VInci_dodo","img/50x50.jfif","2018/10/13 9:00","年年岁岁花相似，岁岁年年人不同。");
-INSERT INTO zjl_comment VALUES(null,1,"chichi猫12","img/50x50 (1).jfif","2018/10/12 9:00","太好看");
-INSERT INTO zjl_comment VALUES(null,1,"明天见_5131 ·","img/50x50.jfif","2018/10/13 9:00","真的很好看");
-INSERT INTO zjl_comment VALUES(null,1,"466 ·","img/50x50 (3).jfif","2018/10/13 9:00","好喜欢，看到这些小时候的回忆都在脑海里出来了");
+INSERT INTO zjl_comment VALUES(null,0,"VInci_dodo","http://www.qiaxiaojiu.com:80/img/50x50.jfif","2018/10/13 9:00","年年岁岁花相似，岁岁年年人不同。");
+INSERT INTO zjl_comment VALUES(null,0,"chichi猫12","http://www.qiaxiaojiu.com:80/img/50x50 (1).jfif","2018/10/12 9:00","太好看");
+INSERT INTO zjl_comment VALUES(null,0,"明天见_5131 ·","http://www.qiaxiaojiu.com:80/img/50x50.jfif","2018/10/13 9:00","真的很好看");
+INSERT INTO zjl_comment VALUES(null,0,"466 ·","http://www.qiaxiaojiu.com:80/img/50x50 (3).jfif","2018/10/13 9:00","好喜欢，看到这些小时候的回忆都在脑海里出来了");
 
 
 
 
 CREATE TABLE zjl_big(
   id INT PRIMARY KEY AUTO_INCREMENT,
-  uid INT,
-  user_name VARCHAR(32),
+  wid INT,
   title VARCHAR(64),
   img VARCHAR(256)
 );
-INSERT INTO zjl_big VALUES(null,1,"违章","【陈翔颖树脂画】宋音系列02号件","img/pic_v0hrytuyzpygdxoz3fw0ly17cigxvuh3.jpg!photo.middle2s.jpg");
-INSERT INTO zjl_big VALUES(null,1,"违章","陈翔颖树脂画宋音系列01","img/pic_dz7rgil2cf8sw5x64koasxo0n19bo2vw.jpg!photo.middle2s.jpg");
-INSERT INTO zjl_big VALUES(null,1,"违章","陈翔颖树脂画宋音系列01","img/pic_m6ty1lh2x8jgotai5yixeiq8ex6pqu3l.jpg!photo.middle2s.jpg");
-INSERT INTO zjl_big VALUES(null,1,"违章","之前DIY的名片架今天拿出来","img/pic_m6ty1lh2x8jgotai5yixeiq8ex6pqu3l.jpg!photo.middle2s.jpg");
+INSERT INTO zjl_big VALUES(null,0,"【陈翔颖树脂画】宋音系列02号件","http://www.qiaxiaojiu.com:80/img/pic_v0hrytuyzpygdxoz3fw0ly17cigxvuh3.jpg!photo.middle2s.jpg");
+INSERT INTO zjl_big VALUES(null,0,"陈翔颖树脂画宋音系列01","http://www.qiaxiaojiu.com:80/img/pic_dz7rgil2cf8sw5x64koasxo0n19bo2vw.jpg!photo.middle2s.jpg");
+INSERT INTO zjl_big VALUES(null,0,"陈翔颖树脂画宋音系列01","http://www.qiaxiaojiu.com:80/img/pic_m6ty1lh2x8jgotai5yixeiq8ex6pqu3l.jpg!photo.middle2s.jpg");
+INSERT INTO zjl_big VALUES(null,0,"之前DIY的名片架今天拿出来","http://www.qiaxiaojiu.com:80/img/pic_m6ty1lh2x8jgotai5yixeiq8ex6pqu3l.jpg!photo.middle2s.jpg");
+
+INSERT INTO zjl_big VALUES(null,1,"无题","http://www.qiaxiaojiu.com:80/img/pic1.jpg");
+INSERT INTO zjl_big VALUES(null,1,"无题","http://www.qiaxiaojiu.com:80/img/pic2.jpg");
+INSERT INTO zjl_big VALUES(null,1,"无题","http://www.qiaxiaojiu.com:80/img/pic3.jpg");
+INSERT INTO zjl_big VALUES(null,1,"无题","http://www.qiaxiaojiu.com:80/img/pic4.jpg");
+
+INSERT INTO zjl_big VALUES(null,2,"厚涂","https://piccdn.gracg.com/uploadfile/photo/2018/10/pic_ftz0d6udmmfcdxbvwoox72k6cd8r5hkk.jpg!photo.middle2s.jpg");
+INSERT INTO zjl_big VALUES(null,2,"颜彩","https://piccdn.gracg.com/uploadfile/photo/2018/8/pic_i3fd8g5r9c6c7o12qdt7o0apruasopr1.jpg!photo.middle2s.jpg");
+INSERT INTO zjl_big VALUES(null,2,"颜彩","https://piccdn.gracg.com/uploadfile/photo/2018/8/pic_qdomgny6ozf7pzl6fih8msytvcyhnr33.jpg!photo.middle2s.jpg");
+INSERT INTO zjl_big VALUES(null,2,"颜彩","https://piccdn.gracg.com/uploadfile/photo/2018/8/pic_5dwf1akpl75v2yd8un2bmja78kain0ol.jpg!photo.middle1s.jpg");
+
+INSERT INTO zjl_big VALUES(null,3,"昨日青空海报之二","https://piccdn.gracg.com/uploadfile/photo/2018/10/pic_fdmh952l12tqdlgptgatb1nhzzdxrz8y.jpg!photo.middle1s.jpg");
+INSERT INTO zjl_big VALUES(null,3,"昨日青空先行海报","https://piccdn.gracg.com/uploadfile/photo/2018/10/201810281719091840884161.jpeg!photo.middle1s.jpg");
+INSERT INTO zjl_big VALUES(null,3,"真相 只有一个！","https://piccdn.gracg.com/uploadfile/photo/2018/10/pic_wm2ms55t6fner1mkg3tdqnx7ws3vh8fn.jpg!photo.middle1s.jpg");
+INSERT INTO zjl_big VALUES(null,3,"真相 只有一个！","https://piccdn.gracg.com/uploadfile/photo/2018/10/pic_7uq1d7f9s5jr9vddsn00jah4qy0lgivh.jpg!photo.middle1s.jpg");
+
+INSERT INTO zjl_big VALUES(null,4,"躺在沙滩上的月亮与星星","https://piccdn.gracg.com/uploadfile/photo/2018/10/pic_79e0ll5r7rvzjm7g97eel3887b75vysl.jpg!photo.middle1s.jpg");
+INSERT INTO zjl_big VALUES(null,4,"所谓幸福","https://piccdn.gracg.com/uploadfile/photo/2018/10/pic_k95ksbj9ygnvo6y6mfdqj3fzrs0h1q1e.jpg!photo.middle2s.jpg");
+INSERT INTO zjl_big VALUES(null,4,"往事随风，烟消云散","https://piccdn.gracg.com/uploadfile/photo/2018/10/pic_bo9hjiamfsl21prg3xlbwwfzb304l2r3.jpg!photo.middle1s.jpg");
+INSERT INTO zjl_big VALUES(null,4,"和她的日常","https://piccdn.gracg.com/uploadfile/photo/2018/10/pic_svhcfbp2cuf9xwhejd02dkod652mvu1b.jpg!photo.middle2s.jpg");
+
 
 
 
@@ -138,16 +164,214 @@ CREATE TABLE zjl_bottom(
   comment INT,
   commentTime VARCHAR(25)
 );
-INSERT INTO zjl_bottom VALUES(null,"img/auto.jfif","校园故事",1652,37,2,"2018/09/25 14:57");
-INSERT INTO zjl_bottom VALUES(null,"img/auto1.jfif","森林",3244,60,3,"2018/09/08  00:00");
-INSERT INTO zjl_bottom VALUES(null,"img/auto2.jfif","孤独的女孩",423,3,1,"2018/08/28 00:02");
-INSERT INTO zjl_bottom VALUES(null,"img/auto3.jfif","冬季城堡",396,4,0,"2018/08/27 23:43");
-INSERT INTO zjl_bottom VALUES(null,"img/auto4.jfif","遗落的梦",2707,32,1,"2018/08/24 12:37");
-INSERT INTO zjl_bottom VALUES(null,"img/auto5.jfif","匆匆少年",702,6,1,"2018/08/07 15:38");
-INSERT INTO zjl_bottom VALUES(null,"img/auto6.jfif","蓝天白云",582,3,0,"2018/07/08 19:02");
-INSERT INTO zjl_bottom VALUES(null,"img/auto7.jfif","孤寂的夜",1972,30,0,"2018/07/15 10:04");
-INSERT INTO zjl_bottom VALUES(null,"img/auto8.jfif","单纯的小美好",521,3,0,"2018/06/28 19:55");
-INSERT INTO zjl_bottom VALUES(null,"img/auto9.jfif","自行车",4311,101,5,"2018/05/16 10:28");
+INSERT INTO zjl_bottom VALUES(null,"http://www.qiaxiaojiu.com:80/img/auto.jfif","校园故事",1652,37,2,"2018/09/25 14:57");
+INSERT INTO zjl_bottom VALUES(null,"http://www.qiaxiaojiu.com:80/img/auto1.jfif","森林",3244,60,3,"2018/09/08  00:00");
+INSERT INTO zjl_bottom VALUES(null,"http://www.qiaxiaojiu.com:80/img/auto2.jfif","孤独的女孩",423,3,1,"2018/08/28 00:02");
+INSERT INTO zjl_bottom VALUES(null,"http://www.qiaxiaojiu.com:80/img/auto3.jfif","冬季城堡",396,4,0,"2018/08/27 23:43");
+INSERT INTO zjl_bottom VALUES(null,"http://www.qiaxiaojiu.com:80/img/auto4.jfif","遗落的梦",2707,32,1,"2018/08/24 12:37");
+INSERT INTO zjl_bottom VALUES(null,"http://www.qiaxiaojiu.com:80/img/auto5.jfif","匆匆少年",702,6,1,"2018/08/07 15:38");
+INSERT INTO zjl_bottom VALUES(null,"http://www.qiaxiaojiu.com:80/img/auto6.jfif","蓝天白云",582,3,0,"2018/07/08 19:02");
+INSERT INTO zjl_bottom VALUES(null,"http://www.qiaxiaojiu.com:80/img/auto7.jfif","孤寂的夜",1972,30,0,"2018/07/15 10:04");
+INSERT INTO zjl_bottom VALUES(null,"http://www.qiaxiaojiu.com:80/img/auto8.jfif","单纯的小美好",521,3,0,"2018/06/28 19:55");
+INSERT INTO zjl_bottom VALUES(null,"http://www.qiaxiaojiu.com:80/img/auto9.jfif","自行车",4311,101,5,"2018/05/16 10:28");
+
+
+CREATE TABLE `gracg_carousel` (
+  `cid` int(11) NOT NULL auto_increment,
+  `img` varchar(128) default NULL,
+  `title` varchar(64) default NULL,
+  `href` varchar(128) default NULL,
+  PRIMARY KEY  (`cid`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of gracg_index_carousel
+-- ----------------------------
+INSERT INTO `gracg_carousel` VALUES (1, 'images/banner/1.jpg', '轮播广告1', 'blog.html');
+INSERT INTO `gracg_carousel` VALUES (2, 'images/banner/2.jpg', '轮播广告2', 'blog.html');
+INSERT INTO `gracg_carousel` VALUES (3, 'images/banner/3.jpg', '轮播广告3', 'blog.html');
+INSERT INTO `gracg_carousel` VALUES (4, 'images/banner/4.jpg', '轮播广告4', 'blog.html');
+INSERT INTO `gracg_carousel` VALUES (5, 'images/banner/5.jpg', '轮播广告5', 'blog.html');
+INSERT INTO `gracg_carousel` VALUES (6, 'images/banner/6.jpg', '轮播广告6', 'blog.html');
+INSERT INTO `gracg_carousel` VALUES (7, 'images/banner/7.jpg', '轮播广告7', 'blog.html');
+
+-- ----------------------------
+-- Table structure for `gracg_wrap`
+-- ----------------------------
+DROP TABLE IF EXISTS `gracg_wrap`;
+CREATE TABLE `gracg_wrap` (
+  `wid` int(11) NOT NULL auto_increment,
+  `img` varchar(128) default NULL,
+  `title` varchar(64) default NULL,
+  `href` varchar(128) default NULL,
+  PRIMARY KEY  (`wid`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of gracg_wrap
+-- ----------------------------
+INSERT INTO `gracg_wrap` VALUES (1, 'images/wrap/1.jpg', '插画入门看这里', 'blog.html');
+INSERT INTO `gracg_wrap` VALUES (2, 'images/wrap/2.jpg', '抽奖活动开始了，笔绘宫心插画漫画征集大赛', 'blog.html');
+INSERT INTO `gracg_wrap` VALUES (3, 'images/wrap/3.jpg', '鹿姐手把手教你手绘', 'blog.html');
+INSERT INTO `gracg_wrap` VALUES (4, 'images/wrap/4.jpg', '笔绘宫心「宫廷计」手游同人插画漫画征集大赛', 'blog.html');
+INSERT INTO `gracg_wrap` VALUES (5, 'images/wrap/5.jpg', '蒙牛真果粒一夏变美粒', 'blog.html');
+INSERT INTO `gracg_wrap` VALUES (6, 'images/wrap/6.jpg', '剑网3九周年同人嘉年华', 'blog.html');
+
+-- ----------------------------
+-- Table structure for `gracg_works`
+-- ----------------------------
+DROP TABLE IF EXISTS `gracg_works`;
+CREATE TABLE `gracg_works` (
+  `wid` int(11) NOT NULL auto_increment,
+  `img_hot` varchar(128) default NULL,
+  `count` varchar(128) default NULL,
+  `img` varchar(128) default NULL,
+  `img_href` varchar(128) default NULL,
+  `title` varchar(64) default NULL,
+  `see` varchar(16) default NULL,
+  `love` varchar(16) default NULL,
+  `msg` varchar(16) default NULL,
+  `img_sm` varchar(128) default NULL,
+  `name` varchar(32) default NULL,
+  `name_href` varchar(128) default NULL,
+  `tags1` varchar(16) default NULL,
+  `tags1_href` varchar(128) default NULL,
+  `tags2` varchar(16) default NULL,
+  `tags2_href` varchar(128) default NULL,
+  `tags3` varchar(16) default NULL,
+  `tags3_href` varchar(128) default NULL,
+  PRIMARY KEY  (`wid`)
+) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of gracg_works
+-- ----------------------------
+INSERT INTO `gracg_works` VALUES (1, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/1.png', 'index.html', '无题', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/1.1.png', 'INRAIN', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (2, 'http://www.qiaxiaojiu.com:80/images/hot.png', 1, 'http://www.qiaxiaojiu.com:80/images/homework/2.png', 'index.html', '两个人物设定', 431, 5, 1, 'http://www.qiaxiaojiu.com:80/images/homework/2.1.png', '耙齿山泉', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (3, 'http://www.qiaxiaojiu.com:80/images/hot.png', 12, 'http://www.qiaxiaojiu.com:80/images/homework/3.png', 'index.html', '圣城', 1352, 29, 4, 'http://www.qiaxiaojiu.com:80/images/homework/3.1.png', '耙齿山泉', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (4, 'http://www.qiaxiaojiu.com:80/images/hot.png', 1, 'http://www.qiaxiaojiu.com:80/images/homework/4.png', 'index.html', '世界观自设', 361, 6, 0, 'http://www.qiaxiaojiu.com:80/images/homework/4.1.png', '超冷静', 'index.html', '科幻', 'index.html', '蒸汽朋克', 'index.html', null, null);
+INSERT INTO `gracg_works` VALUES (5, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/5.png', 'index.html', '暗星', 284, 3, 0, 'http://www.qiaxiaojiu.com:80/images/homework/5.1.png', '麦田里的草帽人', 'index.html', '魂系', 'index.html', '黑暗之魂', 'index.html', null, null);
+INSERT INTO `gracg_works` VALUES (6, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/6.png', 'index.html', '水彩练习——2号', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/6.1.png', '修道的嗷呜', 'index.html', '水彩', 'index.html', '涂鸦', 'index.html', '手绘', 'index.html');
+INSERT INTO `gracg_works` VALUES (7, 'http://www.qiaxiaojiu.com:80/images/hot.png', 3, 'http://www.qiaxiaojiu.com:80/images/homework/7.png', 'index.html', '天空岛', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/7.1.png', '画画的summer', 'index.html', '和纸胶带', 'index.html', null, null, null, null);
+INSERT INTO `gracg_works` VALUES (8, 'http://www.qiaxiaojiu.com:80/images/hot.png', 1, 'http://www.qiaxiaojiu.com:80/images/homework/8.png', 'index.html', '画到不喜欢科幻［系列］', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/8.1.png', 'Spark Warrgon', 'index.html', '科幻', 'index.html', '赛博朋克', 'index.html', '飞船', 'index.html');
+INSERT INTO `gracg_works` VALUES (9, 'http://www.qiaxiaojiu.com:80/images/hot.png', 3, 'http://www.qiaxiaojiu.com:80/images/homework/9.png', 'index.html', '尝试了新的嗑药风格 Synt...', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/9.1.png', 'Spark Warrgon', 'index.html', '科幻', 'index.html', '复古', 'index.html', '霓虹', 'index.html');
+INSERT INTO `gracg_works` VALUES (10, 'http://www.qiaxiaojiu.com:80/images/hot.png', 3, 'http://www.qiaxiaojiu.com:80/images/homework/10.png', 'index.html', '水彩生活图鉴', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/10.1.png', '木壳人', 'index.html', '水彩教科书', 'index.html', '水彩插画', 'index.html', null, null);
+INSERT INTO `gracg_works` VALUES (11, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/11.png', 'index.html', '小人国——给小女孩的书4', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/11.1.png', '罗德罗德罗德西', 'index.html', '水彩', 'index.html', '手绘', 'index.html', '绘本', 'index.html');
+INSERT INTO `gracg_works` VALUES (12, 'http://www.qiaxiaojiu.com:80/images/hot.png', 12, 'http://www.qiaxiaojiu.com:80/images/homework/12.png', 'index.html', '《清人逸史》系列', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/12.1.png', '陶字辈', 'index.html', '清代', 'index.html', '历史题材', 'index.html', null, null);
+INSERT INTO `gracg_works` VALUES (13, 'http://www.qiaxiaojiu.com:80/images/hot.png', 1, 'http://www.qiaxiaojiu.com:80/images/homework/13.png', 'index.html', '水拓画系列手机壳', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/13.1.png', 'HMoonC', 'index.html', '水彩', 'index.html', '水拓画', 'index.html', '设计', 'index.html');
+INSERT INTO `gracg_works` VALUES (14, 'http://www.qiaxiaojiu.com:80/images/hot.png', 1, 'http://www.qiaxiaojiu.com:80/images/homework/14.png', 'index.html', '【日落】', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/14.1.png', 'YiNYiN艺瑾', 'index.html', '日落', 'index.html', '温暖', 'index.html', '原创', 'index.html');
+INSERT INTO `gracg_works` VALUES (15, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/15.png', 'index.html', '傩·和尚', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/15.1.png', 'HEHE唬', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (16, 'http://www.qiaxiaojiu.com:80/images/hot.png', 3, 'http://www.qiaxiaojiu.com:80/images/homework/16.png', 'index.html', '《壳》草稿', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/16.1.png', '什武', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (17, 'http://www.qiaxiaojiu.com:80/images/hot.png', 3, 'http://www.qiaxiaojiu.com:80/images/homework/17.png', 'index.html', '昆虫少女', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/17.1.png', '奥兹', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (18, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/18.png', 'index.html', '无题', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/18.1.png', 'NUJUKAS', 'index.html', '芝加哥', 'index.html', '插画', 'index.html', null, null);
+INSERT INTO `gracg_works` VALUES (19, 'http://www.qiaxiaojiu.com:80/images/hot.png', 2, 'http://www.qiaxiaojiu.com:80/images/homework/19.png', 'index.html', '查理九世-墨多多谜境冒险', 1557, 28, 0, 'images/homework/19.1.png', 'yuliuyang', 'index.html', '查理九世', 'index.html', null, null, null, null);
+INSERT INTO `gracg_works` VALUES (20, 'http://www.qiaxiaojiu.com:80/images/hot.png', 12, 'http://www.qiaxiaojiu.com:80/images/homework/20.png', 'index.html', '最近练习', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/20.1.png', '画画的柯一正', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (21, 'http://www.qiaxiaojiu.com:80/images/hot.png', 1, 'http://www.qiaxiaojiu.com:80/images/homework/21.png', 'index.html', '无题', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/21.1.png', '画画的柯一正', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (22, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/22.png', 'index.html', '#-#', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/22.1.png', '画画的柯一正', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (23, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/23.png', 'index.html', '清淡系列', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/23.1.png', '画画的柯一正', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (24, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/24.png', 'index.html', '鹿', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/24.1.png', 'GuangYuan', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (25, 'http://www.qiaxiaojiu.com:80/images/hot.png', 3, 'http://www.qiaxiaojiu.com:80/images/homework/25.png', 'index.html', '出戏', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/25.1.png', '忙白', 'index.html', '插画', 'index.html', '色彩', 'index.html', '练习', 'index.html');
+INSERT INTO `gracg_works` VALUES (26, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/26.png', 'index.html', '五七万歌', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/26.1.png', '玉生贝利', 'index.html', '剑网三', 'index.html', '五毒', 'index.html', '七秀', 'index.html');
+INSERT INTO `gracg_works` VALUES (27, 'http://www.qiaxiaojiu.com:80/images/hot.png', 12, 'http://www.qiaxiaojiu.com:80/images/homework/27.png', 'index.html', '杨青瓷', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/27.1.png', 'HATAKAEDE', 'index.html', '剑网3九周年同人嘉年华', 'index.html', null, null, null, null);
+INSERT INTO `gracg_works` VALUES (28, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/28.png', 'index.html', '蝶恋花', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/28.1.png', '养猫画画的随随', 'index.html', '古风', 'index.html', '插画', 'index.html', null, null);
+INSERT INTO `gracg_works` VALUES (29, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/29.png', 'index.html', '从前有个少年---周瑜和小...', 1557, 28, 0, 'images/homework/29.1.png', '愚者一智', 'index.html', '三国', 'index.html', '周瑜', 'index.html', null, null);
+INSERT INTO `gracg_works` VALUES (30, 'http://www.qiaxiaojiu.com:80/images/hot.png', 3, 'http://www.qiaxiaojiu.com:80/images/homework/30.png', 'index.html', '光', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/30.1.png', 'boom企鹅', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (31, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/31.png', 'index.html', '喵姐', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/31.1.png', '愚者一智', 'index.html', '剑三', 'index.html', '明教', 'index.html', '喵姐', 'index.html');
+INSERT INTO `gracg_works` VALUES (32, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/32.png', 'index.html', '悠-给我外观设计的一套衣...', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/32.1.png', 'HATAKAEDE', 'index.html', '剑网3九周年同人嘉年华', 'index.html', null, null, null, null);
+INSERT INTO `gracg_works` VALUES (33, 'http://www.qiaxiaojiu.com:80/images/hot.png', 1, 'http://www.qiaxiaojiu.com:80/images/homework/33.png', 'index.html', '摘柿子的小姑娘', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/33.1.png', 'congma', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (34, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/34.png', 'index.html', '乡村-傍晚时分', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/34.1.png', '小憩梦', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (35, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/35.png', 'index.html', '比利牛斯犬', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/35.1.png', '阳雪', 'index.html', '汪', 'index.html', '狗', 'index.html', '画像', 'index.html');
+INSERT INTO `gracg_works` VALUES (36, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/36.png', 'index.html', '夏夜', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/36.1.png', '蔚蓝V.LAN', 'index.html', '儿童插画', 'index.html', '童趣', 'index.html', '女孩', 'index.html');
+INSERT INTO `gracg_works` VALUES (37, 'http://www.qiaxiaojiu.com:80/images/hot.png', 1, 'http://www.qiaxiaojiu.com:80/images/homework/37.png', 'index.html', '圣城', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/37.1.png', '耙齿山泉', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (38, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/38.png', 'index.html', '#-#', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/38.1.png', '画画的柯一正', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (39, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/39.png', 'index.html', '丝巾｜山海经系列之《三...', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/39.1.png', '小领结', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (40, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/40.png', 'index.html', '无题', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/40.1.png', 'INRAIN', 'index.html', null, null, null, null, null, null);
+INSERT INTO `gracg_works` VALUES (41, 'http://www.qiaxiaojiu.com:80/images/hot.png', 1, 'http://www.qiaxiaojiu.com:80/images/homework/41.png', 'index.html', '北京钟楼', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/41.1.png', '猫♂宁', 'index.html', '练习', 'index.html', '动画场景', 'index.html', '水粉', 'index.html');
+INSERT INTO `gracg_works` VALUES (42, 'http://www.qiaxiaojiu.com:80/images/hot.png', 2, 'http://www.qiaxiaojiu.com:80/images/homework/42.png', 'index.html', '小人国——给小女孩的书4', 1557, 28, 0, 'http://www.qiaxiaojiu.com:80/images/homework/42.1.png', '罗德罗德罗德西', 'index.html', '水彩', 'index.html', '手绘', 'index.html', '绘本', 'index.html');
+INSERT INTO `gracg_works` VALUES (43, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/43.png', 'index.html', '水彩生活图鉴', 1025, 34, 6, 'http://www.qiaxiaojiu.com:80/images/homework/43.1.png', '木壳人', 'index.html', '水彩教科书', '水彩插画', null, null, null, null);
+INSERT INTO `gracg_works` VALUES (44, 'http://www.qiaxiaojiu.com:80/images/hot.png', 6, 'http://www.qiaxiaojiu.com:80/images/homework/44.png', 'index.html', '笔绘宫心 （同人插画）', 1298, 26, 2, 'http://www.qiaxiaojiu.com:80/images/homework/44.1.png', '小夏-', 'index.html', '插画', 'index.html', '古风', 'index.html', '宫廷计', 'index.html');
+INSERT INTO `gracg_works` VALUES (45, 'http://www.qiaxiaojiu.com:80/images/hot.png', 12, 'http://www.qiaxiaojiu.com:80/images/homework/45.png', 'index.html', '《轮回》', 1019, 27, 0, 'http://www.qiaxiaojiu.com:80/images/homework/45.1.png', '是散人呢', 'index.html', null, null, null, null, null, null);
+
+-- ----------------------------
+-- Table structure for `gracg_news`
+-- ----------------------------
+DROP TABLE IF EXISTS `gracg_news`;
+CREATE TABLE `gracg_news` (
+  `nid` int(11) NOT NULL auto_increment,
+  `img` varchar(128) default NULL,
+  `title` varchar(64) default NULL,
+  `href` varchar(128) default NULL,
+  PRIMARY KEY  (`nid`)
+) ENGINE=InnoDB AUTO_INCREMENT=297 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of gracg_news
+-- ----------------------------
+INSERT INTO `gracg_news` VALUES (1, 'http://www.qiaxiaojiu.com:80/images/newworks/1.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (2, 'http://www.qiaxiaojiu.com:80/images/newworks/2.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (3, 'http://www.qiaxiaojiu.com:80/images/newworks/3.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (4, 'http://www.qiaxiaojiu.com:80/images/newworks/4.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (5, 'http://www.qiaxiaojiu.com:80/images/newworks/5.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (6, 'http://www.qiaxiaojiu.com:80/images/newworks/6.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (7, 'http://www.qiaxiaojiu.com:80/images/newworks/7.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (8, 'http://www.qiaxiaojiu.com:80/images/newworks/8.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (9, 'http://www.qiaxiaojiu.com:80/images/newworks/9.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (10, 'http://www.qiaxiaojiu.com:80/images/newworks/10.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (11, 'http://www.qiaxiaojiu.com:80/images/newworks/11.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (12, 'http://www.qiaxiaojiu.com:80/images/newworks/12.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (13, 'http://www.qiaxiaojiu.com:80/images/newworks/13.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (14, 'http://www.qiaxiaojiu.com:80/images/newworks/14.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (15, 'http://www.qiaxiaojiu.com:80/images/newworks/15.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (16, 'http://www.qiaxiaojiu.com:80/images/newworks/16.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (17, 'http://www.qiaxiaojiu.com:80/images/newworks/17.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (18, 'http://www.qiaxiaojiu.com:80/images/newworks/18.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (19, 'http://www.qiaxiaojiu.com:80/images/newworks/19.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (20, 'http://www.qiaxiaojiu.com:80/images/newworks/20.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (21, 'http://www.qiaxiaojiu.com:80/images/newworks/21.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (22, 'http://www.qiaxiaojiu.com:80/images/newworks/22.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (23, 'http://www.qiaxiaojiu.com:80/images/newworks/23.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (24, 'http://www.qiaxiaojiu.com:80/images/newworks/24.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (25, 'http://www.qiaxiaojiu.com:80/images/newworks/25.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (26, 'http://www.qiaxiaojiu.com:80/images/newworks/26.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (27, 'http://www.qiaxiaojiu.com:80/images/newworks/27.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (28, 'http://www.qiaxiaojiu.com:80/images/newworks/28.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (29, 'http://www.qiaxiaojiu.com:80/images/newworks/29.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (30, 'http://www.qiaxiaojiu.com:80/images/newworks/30.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (31, 'http://www.qiaxiaojiu.com:80/images/newworks/31.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (32, 'http://www.qiaxiaojiu.com:80/images/newworks/32.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (33, 'http://www.qiaxiaojiu.com:80/images/newworks/33.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (34, 'http://www.qiaxiaojiu.com:80/images/newworks/34.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (35, 'http://www.qiaxiaojiu.com:80/images/newworks/35.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (36, 'http://www.qiaxiaojiu.com:80/images/newworks/36.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (37, 'http://www.qiaxiaojiu.com:80/images/newworks/37.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (38, 'http://www.qiaxiaojiu.com:80/images/newworks/38.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (39, 'http://www.qiaxiaojiu.com:80/images/newworks/39.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (40, 'http://www.qiaxiaojiu.com:80/images/newworks/40.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (41, 'http://www.qiaxiaojiu.com:80/images/newworks/41.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (42, 'http://www.qiaxiaojiu.com:80/images/newworks/42.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (43, 'http://www.qiaxiaojiu.com:80/images/newworks/43.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (44, 'http://www.qiaxiaojiu.com:80/images/newworks/44.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (45, 'http://www.qiaxiaojiu.com:80/images/newworks/45.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (46, 'http://www.qiaxiaojiu.com:80/images/newworks/46.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (47, 'http://www.qiaxiaojiu.com:80/images/newworks/47.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (48, 'http://www.qiaxiaojiu.com:80/images/newworks/48.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (49, 'http://www.qiaxiaojiu.com:80/images/newworks/49.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (50, 'http://www.qiaxiaojiu.com:80/images/newworks/50.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (51, 'http://www.qiaxiaojiu.com:80/images/newworks/51.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (52, 'http://www.qiaxiaojiu.com:80/images/newworks/52.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (53, 'http://www.qiaxiaojiu.com:80/images/newworks/53.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (54, 'http://www.qiaxiaojiu.com:80/images/newworks/54.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (55, 'http://www.qiaxiaojiu.com:80/images/newworks/55.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (56, 'http://www.qiaxiaojiu.com:80/images/newworks/56.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (57, 'http://www.qiaxiaojiu.com:80/images/newworks/57.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (58, 'http://www.qiaxiaojiu.com:80/images/newworks/58.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (59, 'http://www.qiaxiaojiu.com:80/images/newworks/59.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (60, 'http://www.qiaxiaojiu.com:80/images/newworks/60.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (61, 'http://www.qiaxiaojiu.com:80/images/newworks/61.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (62, 'http://www.qiaxiaojiu.com:80/images/newworks/62.png', '无题', 'index.html');
+INSERT INTO `gracg_news` VALUES (63, 'http://www.qiaxiaojiu.com:80/images/newworks/63.png', '无题', 'index.html');
+
+
 
 CREATE TABLE renwu (
    id INT PRIMARY KEY AUTO_INCREMENT,

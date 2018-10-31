@@ -183,6 +183,7 @@
 
         },
         created() {
+            document.body.parentNode.style.overflow = 'auto';
             layui.use(['form','upload','laydate'], function(){
     var form = layui.form
     ,upload=layui.upload
