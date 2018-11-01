@@ -29,7 +29,7 @@
             <transition name="slide-up">
                 <li v-show="isShow">
                     <img src="/img/home/RJ_8.jpeg" alt="">
-                    <div class="black-back" @click="onBlackBack($event)" target="ygzSolicit"></div>
+                    <div class="black-back" @click="onBlackBack($event)" target="err"></div>
                 </li>
             </transition>           
         </ul> 

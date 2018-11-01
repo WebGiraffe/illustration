@@ -1,6 +1,8 @@
 <template>
     
 <div class="ag-content-customer-wrap">
+    <router-link to="/" style="position:absolute;
+    left:0;top:0">&lt;----</router-link>
     <p class='title'>团队风采
     </p>
     <div class="ag-content-customer">
@@ -49,9 +51,11 @@
                     <img src="/images/ruijie.jpg" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
-                    <span style="top:30px; right:0px;">组长芮杰 <br />
-						负责的首页模块，用css+js实现了首页动画效果，
-						实数带制作，大家鼓掌 ！！！
+                    <span style="top:30px; right:0px; width:450px; text-align:left;" >组长芮杰 <br />
+						负责首页模块，建立了一个单页面应用程序;实现了组件和路由切换时的过渡效果;运用了组件间通信;插入了css下雨特效和自动打字功能。<br>
+                        负责登录模块。实现了语音短信验证功能。<br>
+                        负责阿里云服务器端搭建。<br>
+                        负责github代码上传。<br>
 					</span>
                     <!--<a href="#" class="agwyx" style="top:190px; left:262px;">支持芮杰的请把芮杰大声喊出来，啊啊啊</a>-->
                 </div>
@@ -61,7 +65,10 @@
                     <img src="/images/ag-customer-brand_9ca1bac.png" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
-                    <span style="top:30px; right:0px; text-align:right;">我是一个大傻吊</span>
+                    <span style="top:30px; right:0px; text-align:left;">贾影翔<br/>
+                        负责活动比赛界面、404页面和整个网页的头部和尾部。<br>
+                        运用了vue-lazyload实现图片的懒加载。分页查询和axios实现从后台获取数据
+                    </span>
                 </div>
             </div>
             <div class="ag-content-customer-ele-detail-display">
@@ -69,8 +76,9 @@
                     <img src="/images/ag-customer-small_35b8744.png" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
-                    <span style="top:27px; left:0px; text-align:right;">
-                        我是一个大傻吊
+                    <span style="top:27px; left:0px; text-align:left;">
+                        赵德<br/>
+                        负责主页的编写。用vue-lazyload和axios实现从后台服务器读取数据库信息。同时实现了加载更多的功能。和首页轮播图
                         </span>
                 </div>
             </div>
@@ -79,8 +87,9 @@
                     <img src="/images/ag-customer-taobao_a9d7af6.png" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
-                    <span style="top:46px; left:10px; text-align:right;">
-                        我是一个大傻吊
+                    <span style="top:46px; left:10px;  text-align:left;">
+                        严鸽子<br/>
+                        负责投稿和征文界面的编写。使用了layui组件。实现了投稿功能和筛选功能。
                         </span>
                 </div>
             </div>
@@ -89,10 +98,10 @@
                     <img src="/images/ag-customer-search_83f9a60.png" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
-                    <span style="top:30px; right:20px;"><img src="/images/ag-customer-search-txt_592f82b.png" /></span>
-                    <a href="#" class="jjzs" style="top:190px; left:92px;">AG竞价助手</a>
-                    <a href="#" class="tgrb" style="top:190px; left:262px;">推广日报</a>
-                    <a href="#" class="ag360" style="top:190px; left:432px;">AG360营销助手</a>
+                    <span style="top:30px; right:20px; text-align:left;">周继亮<br/>
+                    负责图片展示页面，能够添加评论和图片切换功能。<br>
+                    负责团队风采界面。炫酷的切换特效和鼠标移入事件<br>
+                    </span>
                 </div>
             </div>
             <div class="ag-content-customer-ele-detail-display">
@@ -100,11 +109,14 @@
                     <img src="/images/ag-customer-web_d2729dd.png" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
-                    <span style="top:60px; right:60px;"><img src="/images/ag-customer-web-txt_c205aff.png" /></span>
-                    <a href="#" class="aggg" style="top:190px; left:262px;">AG广告效果分析平台</a>
+                    <span style="top:60px; right:60px; text-align:left;">
+                        项目详情：<br>
+                        GitHub源码地址：https://github.com/WebGiraffe/illustration;<br>
+                        网址：www.qiaoxiaojiu.com;
+                    </span>
                 </div>
             </div>
-            <div class="ag-content-customer-ele-detail-return"><span>&gt;</span>重选角色</div>
+            <div class="ag-content-customer-ele-detail-return"><span>&lt;</span>重选角色</div>
         </div>
     </div>
 </div>

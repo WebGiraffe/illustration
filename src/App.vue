@@ -3,7 +3,6 @@
     <transition name="fade1">
       <router-view/>
     </transition>
-      
   </div>
 </template>
 

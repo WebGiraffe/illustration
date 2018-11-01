@@ -1,11 +1,11 @@
 <template>
         <div class="jyxnav">
         <div class="nav-content">
-            <img src="../../public/img/jyx-active/logo4.png" alt="">
+            <router-link to="/"><img src="../../public/img/jyx-active/logo4.png" alt=""></router-link>
             <div class="nav-content-item">
                 <ul>
                     <li>
-                        <router-link to="#">作品</router-link>
+                        <router-link to="/index">作品</router-link>
                         <div class="icon"></div>
                         <div class="slide-list">
                             <router-link to="#">最新发布</router-link>
@@ -15,8 +15,8 @@
                             <router-link to="#">推荐作者</router-link>
                         </div>
                     </li>
-                    <li><router-link to="#">活动比赛</router-link></li>
-                    <li><router-link to="#">征稿</router-link></li>
+                    <li><router-link to="/active">活动比赛</router-link></li>
+                    <li><router-link to="/ygzSolicit">征稿</router-link></li>
                     <li><router-link to="#">客户端</router-link></li>
                     <li>
                         <router-link to="#">更多</router-link>
@@ -83,7 +83,7 @@
             height: 50px;
             margin:0 auto;
         }
-        div.jyxnav>div.nav-content>img{
+        div.jyxnav>div.nav-content img{
             float: left;
             width: 40px;
             height: 40px;

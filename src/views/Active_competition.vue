@@ -105,7 +105,7 @@
                 self.res=res.data; 
                 self.list=self.res.data;
                 self.pageCounts=self.res.pageCount;
-                //console.log(self.pageCounts);
+                console.log(self.pageCounts);
                 var pnos=[];
                 for(var pno=1;pno<self.pageCounts+1;pno++){
                     pnos.push(pno);

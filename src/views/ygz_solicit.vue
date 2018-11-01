@@ -57,7 +57,7 @@
   </div>
   <div class="header-right">
      <div class="ren" v-if="true">
-      <button class="fb">发布任务</button>
+      <button class="fb"><router-link to="/ygzSubmit">发布任务</router-link></button>
       <button class="gz">工作中心</button>
      </div>
       <p class="gonggao">公告</p>
@@ -173,7 +173,7 @@ body{background:#E9ECEF;}
 a{text-decoration: none;}
 li{list-style:none;}
 div.header{width:1120px;margin:0 auto;position:relative;margin-top:20px;}
-div.header-left{width:800px;height:1090px;padding-top:30px;background:#fff;border-radius:5px;}
+div.header-left{width:800px;height:240px;padding-top:30px;background:#fff;border-radius:5px;}
 div.header-left>p{font-size:20px;padding-left:18px;padding-bottom:20px;}
 span.title{font-size:14px;padding-left:18px;padding-right:15px;}
 div.choose{margin-bottom:45px;}

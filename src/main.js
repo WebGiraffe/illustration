@@ -71,8 +71,9 @@ Vue.prototype.$http=axios;
 Vue.use(VueLazyload,{
   preload:3,
   attempt:1,
-  throttleWait:500
+  throttleWait:0
 });
+
 new Vue({
   router,
   store,

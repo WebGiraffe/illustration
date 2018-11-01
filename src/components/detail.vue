@@ -91,7 +91,7 @@
                             </div>
                             <div class="contentbox ">
                             <div class=" contentwrap clearfix">
-                                <textarea id="texts" placeholder="有什么感想，你也来说说吧" v-model="comments">
+                                <textarea id="texts" placeholder="有什么感想，你也来说说吧" v-model="comments" required>
 
                                 </textarea>
                             </div>

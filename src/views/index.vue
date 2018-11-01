@@ -205,6 +205,7 @@
                     //this.works1=result.body.msg.data;
                     if(this.works1.length<25){
                         this.works1=this.works1.concat(result.data.msg.data);
+                        console.log(this.works1)
                     }else{
                         alert("没有更多信息了")
                     }
@@ -218,6 +219,7 @@
                     //this.works1=result.body.msg.data;
                     if(this.works2.length<20){
                         this.works2=this.works2.concat(result.data.msg.data);
+                        console.log(this.works2)
                     }else{
                         alert("没有更多信息了")
                     }
@@ -306,9 +308,9 @@
     .zd-app-index .works ul li .infobox p{ font-size: 12px; height: 25px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #333; text-align: center;}
     .zd-app-index .works ul li .infobox .info{height: 20px; padding: 0px 0 5px; font-size: 12px;text-align: center;}
     .zd-app-index .works ul li .infobox .info span{ padding-left: 20px; color: #b1b1b1; margin-right: 10px;}
-    .zd-app-index .works ul li .infobox .info span:nth-child(1){background:url(http://localhost:8080/images/eye.png) no-repeat left;}
-    .zd-app-index .works ul li .infobox .info span:nth-child(2){background:url(http://localhost:8080/images/birth.png) no-repeat left;}
-    .zd-app-index .works ul li .infobox .info span:nth-child(3){background:url(http://localhost:8080/images/msg.png) no-repeat left;}
+    .zd-app-index .works ul li .infobox .info span:nth-child(1){background:url(http://www.qiaxiaojiu.com:80/images/eye.png) no-repeat left;}
+    .zd-app-index .works ul li .infobox .info span:nth-child(2){background:url(http://www.qiaxiaojiu.com:80/images/birth.png) no-repeat left;}
+    .zd-app-index .works ul li .infobox .info span:nth-child(3){background:url(http://www.qiaxiaojiu.com:80/images/msg.png) no-repeat left;}
 
     .zd-app-index .works ul li .userinfo{padding: 10px; border-top: 1px #f1f1f1 solid;}
     .zd-app-index .works ul li .userinfo img{width: 21px; height: 21px; float:left;  border-radius: 100%;}
