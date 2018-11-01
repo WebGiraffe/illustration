@@ -102,6 +102,7 @@
                 }
             },
             sendYanZen(){
+                var self=this;
                 var reg=/^[1][3-9][0-9]{9}$/;
                 if(reg.test(this.mobile)){
                     $.get({
@@ -109,8 +110,10 @@
                         data:{
                             mobile:this.mobile
                         },
-                        success: (res)=>{
-                            this.yanzhenma=res.obj;
+                        success:function(res){
+                            console.log(res);
+                            self.yanzhenma=res.obj;
+                            console.log(self.yanzhenma)
                         }
                     })
                 }else{
@@ -118,14 +121,15 @@
                 }
             },
             clickLogin(){
-                if(this.yanzhenma==this.inputYZM){
+                console.log(this.yanzhenma,this.inputYZM)
+                //if(this.yanzhenma==this.inputYZM){
                     window.sessionStorage.setItem('isLogin',true);
                     window.sessionStorage.setItem('username',this.mobile);
                     alert('登陆成功，点击返回主页');
-                    this.$router.push('/RJ_HomePage');
-                }else{
-                    alert('验证码不正确');
-                }
+                    this.$router.push('/');
+                //}else{
+                //    alert('验证码不正确');
+                //}
                 this.inputYZM='';
             }
         }

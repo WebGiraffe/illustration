@@ -69,7 +69,6 @@
       <a href="#"><img src="img/xy.jpg" class="myImg2"></a>   
   </div>
 </div>
-  <jyxFooter></jyxFooter>
 </div>
 </template>
 

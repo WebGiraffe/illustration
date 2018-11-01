@@ -1,7 +1,7 @@
 <template>
     
 <div class="ag-content-customer-wrap">
-    <router-link to="/" style="position:absolute;
+    <router-link to="/#/" style="position:absolute;
     left:0;top:0">&lt;----</router-link>
     <p class='title'>团队风采
     </p>

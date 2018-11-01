@@ -50,7 +50,6 @@ function callback(error, response, body) {
     console.log(error)
     console.log(response);
     console.log(body);
-   
 }
  
 function rNum(){
