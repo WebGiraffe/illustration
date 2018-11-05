@@ -22,9 +22,11 @@
 <script>
     
 </script>
-<style scped>
+<style scoped>
     .jyxErr{
+        height:800px;
         background-color:#494949;
+        overflow:hidden;
     }
     .jyxErr .head404{
         width:580px;

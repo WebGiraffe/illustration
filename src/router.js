@@ -13,7 +13,8 @@ export default new Router({
       path:'/active',
       name:'active',
       component:ActiveCompetition
-    },{
+    },
+    {
       path:'/*',
       name:'error',
       component:ErrorPage
