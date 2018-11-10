@@ -106,7 +106,7 @@
                 var reg=/^[1][3-9][0-9]{9}$/;
                 if(reg.test(this.mobile)){
                     $.get({
-                        url:'http://www.qiaxiaojiu.com:3307/yanzhen',
+                        url:'http://www.qiaxiaojiu.com:4001/yanzhen',
                         data:{
                             mobile:this.mobile
                         },

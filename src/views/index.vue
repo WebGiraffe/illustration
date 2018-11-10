@@ -129,7 +129,7 @@
             <h4><a href="#">了解更多</a></h4>
         </div>
         <div class="hots">
-            <a href="#"><img src="http://www.qiaxiaojiu.com:80/images/homework/S95.jpg" alt=""></a>
+            <a href="#"><img src="http://www.qiaxiaojiu.com:4000/images/homework/S95.jpg" alt=""></a>
         </div>
         <div class="hello">
             <h1>最新作品</h1>
@@ -198,7 +198,7 @@
             },
             getWork1(){
                 this.pageIndex++;
-                var url="http://www.qiaxiaojiu.com:3307/works/work?pno="+this.pageIndex;
+                var url="http://www.qiaxiaojiu.com:4001/works/work?pno="+this.pageIndex;
                 this.$http.get(url).then(result=>{
                     //console.log(result.data.msg.data);
                     //console.log(result.data.msg.data[0].wid);
@@ -213,7 +213,7 @@
             },
             getWork2(){
                 this.pageIndex++;
-                var url="http://www.qiaxiaojiu.com:3307/works/work?pno="+this.pageIndex;
+                var url="http://www.qiaxiaojiu.com:4001/works/work?pno="+this.pageIndex;
                 this.$http.get(url).then(result=>{
                     //console.log(result.data.msg.data);
                     //this.works1=result.body.msg.data;
@@ -231,7 +231,7 @@
             this.getWork1();
             this.getWork2();
             (async function(self){
-                var res=await self.$http.get("http://www.qiaxiaojiu.com:3307/index");
+                var res=await self.$http.get("http://www.qiaxiaojiu.com:4001/index");
                 //carousel
                 self.carousel=res.data.carousel;
                 //console.log(self.carousel);
@@ -308,9 +308,9 @@
     .zd-app-index .works ul li .infobox p{ font-size: 12px; height: 25px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #333; text-align: center;}
     .zd-app-index .works ul li .infobox .info{height: 20px; padding: 0px 0 5px; font-size: 12px;text-align: center;}
     .zd-app-index .works ul li .infobox .info span{ padding-left: 20px; color: #b1b1b1; margin-right: 10px;}
-    .zd-app-index .works ul li .infobox .info span:nth-child(1){background:url(http://www.qiaxiaojiu.com:80/images/eye.png) no-repeat left;}
-    .zd-app-index .works ul li .infobox .info span:nth-child(2){background:url(http://www.qiaxiaojiu.com:80/images/birth.png) no-repeat left;}
-    .zd-app-index .works ul li .infobox .info span:nth-child(3){background:url(http://www.qiaxiaojiu.com:80/images/msg.png) no-repeat left;}
+    .zd-app-index .works ul li .infobox .info span:nth-child(1){background:url(http://www.qiaxiaojiu.com:4000/images/eye.png) no-repeat left;}
+    .zd-app-index .works ul li .infobox .info span:nth-child(2){background:url(http://www.qiaxiaojiu.com:4000/images/birth.png) no-repeat left;}
+    .zd-app-index .works ul li .infobox .info span:nth-child(3){background:url(http://www.qiaxiaojiu.com:4000/images/msg.png) no-repeat left;}
 
     .zd-app-index .works ul li .userinfo{padding: 10px; border-top: 1px #f1f1f1 solid;}
     .zd-app-index .works ul li .userinfo img{width: 21px; height: 21px; float:left;  border-radius: 100%;}

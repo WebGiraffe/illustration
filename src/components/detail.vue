@@ -159,7 +159,7 @@
                             {{user.signature}}
                     </div>
                     <div class="rz">
-                        <img src="http://www.qiaxiaojiu.com:80/img/v_2.png" alt="">
+                        <img src="http://www.qiaxiaojiu.com:4000/img/v_2.png" alt="">
                         <span>{{user.renzheng}}</span>
                     </div> 
                     <div class="tool">
@@ -167,10 +167,10 @@
                         <button class="btn btn-dark btn-sm btn1">工作联系</button>
                     </div> 
                     <div class="ad_lunbo">
-                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:80/img/guanggao1.jpg" alt=""></a>
-                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:80/img/guanggao2.jpg" alt=""></a>
-                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:80/img/guanggao3.jpg" alt=""></a>
-                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:80/img/guanggao4.jpg" alt=""></a>
+                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:4000/img/guanggao1.jpg" alt=""></a>
+                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:4000/img/guanggao2.jpg" alt=""></a>
+                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:4000/img/guanggao3.jpg" alt=""></a>
+                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:4000/img/guanggao4.jpg" alt=""></a>
                     </div> 
                     
                     </div>
@@ -254,7 +254,7 @@
                  }
             },
             commentBtn(){
-               this.$http.post("http://www.qiaxiaojiu.com:3307/img/addcomment",
+               this.$http.post("http://www.qiaxiaojiu.com:4001/img/addcomment",
                qs.stringify({
                    comment:this.comments,
                    wid:this.wid  
@@ -270,17 +270,17 @@
         },
         created() {
             (async function(self){
-                 var res=await self.$http.get("http://www.qiaxiaojiu.com:3307/img/user?wid="+self.wid);
+                 var res=await self.$http.get("http://www.qiaxiaojiu.com:4001/img/user?wid="+self.wid);
                 self.user = res.data[0]; 
             
 
-                var res = await self.$http.get("http://www.qiaxiaojiu.com:3307/img/big?wid="+self.wid);
+                var res = await self.$http.get("http://www.qiaxiaojiu.com:4001/img/big?wid="+self.wid);
                 self.big = res.data; 
                 
-                var res = await self.$http.get("http://www.qiaxiaojiu.com:3307/img/bottom");
+                var res = await self.$http.get("http://www.qiaxiaojiu.com:4001/img/bottom");
                 self.bottom = res.data; 
             
-                var res = await self.$http.get("http://www.qiaxiaojiu.com:3307/img/comment?wid="+self.wid);
+                var res = await self.$http.get("http://www.qiaxiaojiu.com:4001/img/comment?wid="+self.wid);
                 self.comment = res.data; 
             
         

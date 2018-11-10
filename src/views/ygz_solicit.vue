@@ -93,7 +93,7 @@
             pageChange(index){
                 this.tem=index;
                 var self=this;
-                var url="http://www.qiaxiaojiu.com:3307/solicit/list?pno="+index;
+                var url="http://www.qiaxiaojiu.com:4001/solicit/list?pno="+index;
                 this.$http.get(url).then(result=>{
                     self.list=result.data.data;
                 })
@@ -101,7 +101,7 @@
             },
             pagePrev(index){
                 index--;
-                var url="http://www.qiaxiaojiu.com:3307/solicit/list?pno="+index;
+                var url="http://www.qiaxiaojiu.com:4001/solicit/list?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })
@@ -111,7 +111,7 @@
             },
             pageNext(index){
                 index++;
-                var url="http://www.qiaxiaojiu.com:3307/solicit/list?pno="+index;
+                var url="http://www.qiaxiaojiu.com:4001/solicit/list?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })
@@ -120,14 +120,14 @@
                 //alert(index);
             },
             first(index){
-                var url="http://www.qiaxiaojiu.com:3307/solicit/list?pno="+index;
+                var url="http://www.qiaxiaojiu.com:4001/solicit/list?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })
                 this.onClass=index-1;
             },
             last(index){
-               var url="http://www.qiaxiaojiu.com:3307/solicit/list?pno="+index;
+               var url="http://www.qiaxiaojiu.com:4001/solicit/list?pno="+index;
                 this.$http.get(url).then(result=>{
                     this.list=result.data.data;
                 })
@@ -139,7 +139,7 @@
             document.body.parentNode.style.overflow = 'auto';
             var self=this;
             $.ajax({
-                url:"http://www.qiaxiaojiu.com:3307/solicit/list",
+                url:"http://www.qiaxiaojiu.com:4001/solicit/list",
                 type:"get",
                 dataType:"json",
                 success:function(res){
