@@ -33,7 +33,7 @@ router.get("/user",(req,res)=>{
 router.post("/addcomment",(req,res)=>{
     var wid= req.body.wid;
     var user_uname = "盛夏";
-    var address="http://localhost:8080/img/160x160 (8).jfif";
+    var address="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/160x160 (8).jfif";
     var time = new Date();
     var comment = req.body.comment;
     var sql = `INSERT INTO zjl_comment(id, wid, user_name, address, commenttime, comment) VALUES (null,?,?,?,?,?)`
@@ -49,7 +49,7 @@ router.post("/addcomment",(req,res)=>{
     })
 })
 router.post("/love",(req,res)=>{
-    var address="http://localhost:8080/img/160x160 (8).jfif";
+    var address="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/160x160 (8).jfif";
     var user_name="盛夏";
     var wid= req.body.wid;
     

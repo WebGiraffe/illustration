@@ -46,7 +46,7 @@
                             </div>
                             <div id="new_right">
                                 <div>
-                                    <img src="img/1161550.jpg" alt=""><br>
+                                    <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/1161550.jpg" alt=""><br>
                                     微信扫一扫<br>
                                     小程序里打开此作品
                                 </div>
@@ -130,7 +130,7 @@
 
                         </div>
                         <div style="padding:40px;color:#ccc;text-align:center;display:none" class="d1" >
-                                <img src="img/info.png" alt="">
+                                <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/info.png" alt="">
                                 <div style="margin-top:5px">
                                         还没有评论!
                                 </div>
@@ -159,7 +159,7 @@
                             {{user.signature}}
                     </div>
                     <div class="rz">
-                        <img src="http://www.qiaxiaojiu.com:4000/img/v_2.png" alt="">
+                        <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/v_2.png" alt="">
                         <span>{{user.renzheng}}</span>
                     </div> 
                     <div class="tool">
@@ -167,10 +167,10 @@
                         <button class="btn btn-dark btn-sm btn1">工作联系</button>
                     </div> 
                     <div class="ad_lunbo">
-                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:4000/img/guanggao1.jpg" alt=""></a>
-                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:4000/img/guanggao2.jpg" alt=""></a>
-                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:4000/img/guanggao3.jpg" alt=""></a>
-                        <a href="#" class="lubo"><img src="http://www.qiaxiaojiu.com:4000/img/guanggao4.jpg" alt=""></a>
+                        <a href="#" class="lubo"><img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/guanggao1.jpg" alt=""></a>
+                        <a href="#" class="lubo"><img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/guanggao2.jpg" alt=""></a>
+                        <a href="#" class="lubo"><img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/guanggao3.jpg" alt=""></a>
+                        <a href="#" class="lubo"><img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/guanggao4.jpg" alt=""></a>
                     </div> 
                     
                     </div>
@@ -706,7 +706,7 @@ body{font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma
     margin-right: 15px;
 }
 .icon-imgbg-hpw_see {
-    background-image: url(https://css.gracg.com/images/icon-eye.png);
+    background-image: url(https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/icon-eye.png);
     background-size: auto 12px;
 }
 .TheWorksList li .info .hpw_love {
@@ -718,7 +718,7 @@ body{font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma
 }
 
 .icon-imgbg-hpw_love {
-    background-image: url(https://css.gracg.com/images/icon-love.png);
+    background-image: url(https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/icon-love.png);
     background-size: auto 12px;
 }
 .TheWorksList li .info .hpw_pl {
@@ -730,7 +730,7 @@ body{font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma
 }
 
 .icon-imgbg-hpw_pl {
-    background-image: url(https://css.gracg.com/images/icon-msg.png);
+    background-image: url(https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/icon-msg.png);
     background-size: auto 12px;
 }
 

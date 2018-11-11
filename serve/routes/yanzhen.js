@@ -37,12 +37,15 @@ router.get("/",(req,res)=>{
             'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
         }
     };
+    //res.send({code:$yanzhenma});
+
     request(options, function(error, response, body){
         console.log(error);
         console.log(response);
         console.log(body);
         res.send(JSON.parse(body));
     });
+ 
 
 })
 

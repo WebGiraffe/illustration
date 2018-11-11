@@ -3,10 +3,11 @@
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow" style="text-align:left">
       <h5 class="my-0 mr-md-auto  "><a href="/"><img src="http://gracgimg.oss-cn-beijing.aliyuncs.com/logo2.jpg" width="120"></a></h5>
       <nav class="my-2 my-md-0 mr-md-3 hides ">
-        
+        <!--
         <a class="p-2 text-dark " href="/login/reg">注册</a>
       </nav>
       <a class="btn btn-outline-primary btn-sm  hides " href="/login">登录</a>
+      -->
     </div>
 
     <div class="body2" style="width: 700px;margin: 0 auto;">
@@ -122,14 +123,14 @@
             },
             clickLogin(){
                 console.log(this.yanzhenma,this.inputYZM)
-                //if(this.yanzhenma==this.inputYZM){
+                if(this.yanzhenma==this.inputYZM){
                     window.sessionStorage.setItem('isLogin',true);
                     window.sessionStorage.setItem('username',this.mobile);
                     alert('登陆成功，点击返回主页');
                     this.$router.push('/');
-                //}else{
-                //    alert('验证码不正确');
-                //}
+                }else{
+                    alert('验证码不正确');
+                }
                 this.inputYZM='';
             }
         }

@@ -127,7 +127,7 @@
                               <p>点击上传，或将文件拖拽到此处</p>
                             </div>
                             <div class="myWidth">
-                              <img src="img/info.png" alt="">
+                              <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/info.png" alt="">
                               <p>请上传图像</p>
                             </div>
                           </div>

@@ -1,7 +1,7 @@
 <template>
     <div class="app_page_3">
 
-            <img src="/img/home/RJ_3.jpeg" alt="">
+            <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/home/RJ_3.jpeg" alt="">
     </div>
 </template>
 

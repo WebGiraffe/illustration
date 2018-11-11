@@ -5,7 +5,7 @@
         <div class="work-nav">
             <div>
                 <ul class="wnav">
-                    <li><router-link to="#"><img src="img/jyx-active/home3.png" alt=""></router-link></li>
+                    <li><router-link to="#"><img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/jyx-active/home3.png" alt=""></router-link></li>
                     <li><router-link to="#">全部</router-link></li>
                     <li><router-link to="#">进行</router-link></li>
                     <li><router-link to="#">已结束</router-link></li>
@@ -19,14 +19,14 @@
         </div>
         <div class="wrapper">
             <router-link to="#" target="_blank">
-                <img src="img/jyx-active/pic_srydfvcj74t9oh5fsgb15bbx8lx36s5r.jpg" alt="">
+                <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/jyx-active/pic_srydfvcj74t9oh5fsgb15bbx8lx36s5r.jpg" alt="">
             </router-link>
         </div>
     </div>
     <div id="fixBar">
         <a href="#"></a>
         <a>
-            <img src="img/jyx-active/xcx.jpg" alt="" style="width:75px;margin:1px 0 1px;">
+            <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/jyx-active/xcx.jpg" alt="" style="width:75px;margin:1px 0 1px;">
         </a>
         <router-link to="#" style="padding:2px">微信小程序</router-link>
     </div>
@@ -72,7 +72,7 @@
     </div>
     <div class="wrapper_bottom">
             <router-link to="#" target="_blank">
-                <img src="img/jyx-active/pic_rbc5zndyvpa475j3o01gd4xw0lje8ywu.jpg" alt="">
+                <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/jyx-active/pic_rbc5zndyvpa475j3o01gd4xw0lje8ywu.jpg" alt="">
             </router-link>
         </div>
         <jyxFooter></jyxFooter>
@@ -221,7 +221,7 @@
             height: 35px;
             display: block;
             border:1px solid #e7e7e7;
-            background:#fbfbfb url("../../public/img/jyx-active/top.jpg") no-repeat center;
+            background:#fbfbfb url("https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/jyx-active/top.jpg") no-repeat center;
         }
         #jyx #fixBar>a:nth-child(2){
             width: 80px;

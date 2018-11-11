@@ -1,6 +1,6 @@
 <template>
     <div class="app_page_4">
-            <img src="/img/home/RJ_4.jpeg" alt="">
+            <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/home/RJ_4.jpeg" alt="">
             <rain></rain>
             <div class="text">
                 <p id="p1"></p>

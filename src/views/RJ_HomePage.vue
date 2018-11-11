@@ -29,8 +29,8 @@
                 </li>
             </ul>
         </div>
-        <img src="img\home\20160819182035_F4zHV.png" alt="" class="dirIcon" @click="imgClick">
-        <img class="pg-next-page" src="img/home/20160819111217_jCEKk.png" @click="imgClickDown" v-show="nextBtnShow">
+        <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/home/20160819182035_F4zHV.png" alt="" class="dirIcon" @click="imgClick">
+        <img class="pg-next-page" src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/home/20160819111217_jCEKk.png" @click="imgClickDown" v-show="nextBtnShow">
     </div>
 </template>
 
@@ -151,6 +151,9 @@
             }
         },
         mounted(){
+        },
+        destroyed(){
+            document.onmousewheel=null;
         },
         components:{
             'page-one':pageOne,

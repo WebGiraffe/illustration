@@ -39,13 +39,13 @@
         width:580px;
         height:234px; 
         margin:50px auto 0 auto; 
-        background:url("/img/jyx-active/head404.png") no-repeat; 
+        background:url("https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/jyx-active/head404.png") no-repeat; 
         } 
     .jyxErr .txtbg404{ 
         width:499px; 
         height:169px; 
         margin:10px auto 0 auto; 
-        background:url("/img/jyx-active/txtbg404.png") no-repeat;
+        background:url("https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/jyx-active/txtbg404.png") no-repeat;
         }
     .jyxErr .txtbg404 .txtbox{ 
         width:390px; 

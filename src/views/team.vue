@@ -9,32 +9,32 @@
         <div class="ag-content-customer-ele">
             <div class="ag-content-customer-ele-shadow"></div>
             <span>芮杰</span>
-            <img src="/images/ag-customer-tradition_ad3bf6f.png" data-hover="77" data-normal="85" />
+            <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-customer-tradition_ad3bf6f.png" data-hover="77" data-normal="85" />
         </div>
         <div class="ag-content-customer-ele">
             <div class="ag-content-customer-ele-shadow"></div>
             <span>贾影翔</span>
-            <img src="/images/ag-customer-brand_9ca1bac.png" style="left:65px;" data-hover="57" data-normal="65" />
+            <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-customer-brand_9ca1bac.png" style="left:65px;" data-hover="57" data-normal="65" />
         </div>
         <div class="ag-content-customer-ele">
             <div class="ag-content-customer-ele-shadow"></div>
             <span>赵德</span>
-            <img src="/images/ag-customer-small_35b8744.png" style="left:96px;" data-hover="88" data-normal="96" />
+            <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-customer-small_35b8744.png" style="left:96px;" data-hover="88" data-normal="96" />
         </div>
         <div class="ag-content-customer-ele">
             <div class="ag-content-customer-ele-shadow"></div>
             <span>严鸽子</span>
-            <img src="/images/ag-customer-taobao_a9d7af6.png" style="left:83px;" data-hover="75" data-normal="83" />
+            <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-customer-taobao_a9d7af6.png" style="left:83px;" data-hover="75" data-normal="83" />
         </div>
         <div class="ag-content-customer-ele">
             <div class="ag-content-customer-ele-shadow"></div>
             <span>周继亮</span>
-            <img src="/images/ag-customer-search_83f9a60.png" style="left:56px;" data-hover="48" data-normal="56" />
+            <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-customer-search_83f9a60.png" style="left:56px;" data-hover="48" data-normal="56" />
         </div>
         <div class="ag-content-customer-ele">
             <div class="ag-content-customer-ele-shadow"></div>
             <span>网站主</span>
-            <img src="/images/ag-customer-web_d2729dd.png" style="left:83px;" data-hover="75" data-normal="83" />
+            <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-customer-web_d2729dd.png" style="left:83px;" data-hover="75" data-normal="83" />
         </div>
         <div class="ag-content-customer-ele-detail">
             <ul>
@@ -48,7 +48,7 @@
 			<!--芮杰-->
             <div class="ag-content-customer-ele-detail-display">
                 <div class="ag-content-customer-ele-detail-display-left">
-                    <img src="/images/ruijie.jpg" />
+                    <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ruijie.jpg" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
                     <span style="top:30px; right:0px; width:450px; text-align:left;" >组长芮杰 <br />
@@ -62,7 +62,7 @@
             </div>
             <div class="ag-content-customer-ele-detail-display">
                 <div class="ag-content-customer-ele-detail-display-left">
-                    <img src="/images/ag-customer-brand_9ca1bac.png" />
+                    <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-customer-brand_9ca1bac.png" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
                     <span style="top:30px; right:0px; text-align:left;">贾影翔<br/>
@@ -73,7 +73,7 @@
             </div>
             <div class="ag-content-customer-ele-detail-display">
                 <div class="ag-content-customer-ele-detail-display-left">
-                    <img src="/images/ag-customer-small_35b8744.png" />
+                    <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-customer-small_35b8744.png" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
                     <span style="top:27px; left:0px; text-align:left;">
@@ -84,7 +84,7 @@
             </div>
             <div class="ag-content-customer-ele-detail-display">
                 <div class="ag-content-customer-ele-detail-display-left">
-                    <img src="/images/ag-customer-taobao_a9d7af6.png" />
+                    <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-customer-taobao_a9d7af6.png" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
                     <span style="top:46px; left:10px;  text-align:left;">
@@ -95,7 +95,7 @@
             </div>
             <div class="ag-content-customer-ele-detail-display">
                 <div class="ag-content-customer-ele-detail-display-left">
-                    <img src="/images/ag-customer-search_83f9a60.png" />
+                    <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-customer-search_83f9a60.png" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
                     <span style="top:30px; right:20px; text-align:left;">周继亮<br/>
@@ -106,7 +106,7 @@
             </div>
             <div class="ag-content-customer-ele-detail-display">
                 <div class="ag-content-customer-ele-detail-display-left">
-                    <img src="/images/ag-customer-web_d2729dd.png" />
+                    <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-customer-web_d2729dd.png" />
                 </div>
                 <div class="ag-content-customer-ele-detail-display-right">
                     <span style="top:60px; right:60px; text-align:left;">
@@ -417,7 +417,7 @@
     height:140px;
     text-align:left;
     text-indent:-9999px;
-    background-image:url('/images/ag-link-icon_87d8dbf.png');
+    background-image:url('https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-link-icon_87d8dbf.png');
     background-repeat:no-repeat;
     cursor:pointer;
     position:absolute;
@@ -537,18 +537,18 @@
     display:block;
     width:129px;
     height:47px;
-    background-image:url('/images/ag-download-ios-1_04d4257.png');
+    background-image:url('https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-download-ios-1_04d4257.png');
     background-repeat:no-repeat;
     background-position:0px;
     position:absolute;
 }
 .ag-content-app-wytgg-left a:hover {
-    background-image:url('/images/ag-download-ios-1_04d4257.png');
+    background-image:url('https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-download-ios-1_04d4257.png');
     background-repeat:no-repeat;
     background-position:-129px;
 }
 .ag-content-app-wytgg-left a:active {
-    background-image:url('/images/ag-download-ios-1_04d4257.png');
+    background-image:url('https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-download-ios-1_04d4257.png');
     background-repeat:no-repeat;
     background-position:-258px;
 }
@@ -559,7 +559,7 @@
 .ag-content-app-wytgg-left a.androidLink{
     top:343px;
     left:155px;
-    background-image:url('/images/ag-download-android-1_aeb8851.png');
+    background-image:url('https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-download-android-1_aeb8851.png');
 }
 .ag-content-app-wytgg-right {
     width:570px;
@@ -605,7 +605,7 @@
     display:block;
     width:129px;
     height:47px;
-    background:url('/images/ag-tgrb-btn-1_3b967d3.png') no-repeat;
+    background:url('https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/ag-tgrb-btn-1_3b967d3.png') no-repeat;
     margin:24px 0 0 207px;
 }
 .ag-content-app-tgrb-right a:link {

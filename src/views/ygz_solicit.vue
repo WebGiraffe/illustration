@@ -30,7 +30,7 @@
     </div>
   </div>
   <div class="middle">
-     <img src="img/ban.jpg" alt="" /> 
+     <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/ban.jpg" alt="" /> 
   </div>
   <div class="list">
     <ul class="list_one">
@@ -64,9 +64,9 @@
       <p class="yijian">王国工作区改版上线测试中，小伙伴们有任何建议或疑问都可以反馈给王国菌或右下角的“意见反馈”。<br>王国菌微信号：poocg003<br>为了更好为有绘画梦想的人服务，我们一直在努力！</p>
       <p class="shijian">2018年01月18日</p>
       <p class="hao">微信公众号</p>
-      <img src="img/wx.jpg" id="myImg">
-      <a href="#"><img src="img/ind.jpg" class="myImg1"></a>
-      <a href="#"><img src="img/xy.jpg" class="myImg2"></a>   
+      <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/wx.jpg" id="myImg">
+      <a href="#"><img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/ind.jpg" class="myImg1"></a>
+      <a href="#"><img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/xy.jpg" class="myImg2"></a>   
   </div>
 </div>
 </div>

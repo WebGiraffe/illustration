@@ -20,8 +20,8 @@
                         <li><a href=""></a></li>
                     </ul>
                 </div>
-                <div class="prev"><img src="images/prev.png" alt="" /></div>
-                <div class="next"><img src="images/next.png" alt="" /></div>
+                <div class="prev"><img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/prev.png" alt="" /></div>
+                <div class="next"><img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/next.png" alt="" /></div>
             </div>
         </div>
         <!--wrapper-->
@@ -129,7 +129,7 @@
             <h4><a href="#">了解更多</a></h4>
         </div>
         <div class="hots">
-            <a href="#"><img src="http://www.qiaxiaojiu.com:4000/images/homework/S95.jpg" alt=""></a>
+            <a href="#"><img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/homework/S95.jpg" alt=""></a>
         </div>
         <div class="hello">
             <h1>最新作品</h1>
@@ -255,7 +255,7 @@
     body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select { padding:0; margin:0; font-family:arial; }
     @media screen and (max-width:1440px){
         .zd-app-index{
-            width: 1600px;
+            width: 1440px;
         }
     }
 
@@ -314,9 +314,9 @@
     .zd-app-index .works ul li .infobox p{ font-size: 12px; height: 25px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #333; text-align: center;}
     .zd-app-index .works ul li .infobox .info{height: 20px; padding: 0px 0 5px; font-size: 12px;text-align: center;}
     .zd-app-index .works ul li .infobox .info span{ padding-left: 20px; color: #b1b1b1; margin-right: 10px;}
-    .zd-app-index .works ul li .infobox .info span:nth-child(1){background:url(http://www.qiaxiaojiu.com:4000/images/eye.png) no-repeat left;}
-    .zd-app-index .works ul li .infobox .info span:nth-child(2){background:url(http://www.qiaxiaojiu.com:4000/images/birth.png) no-repeat left;}
-    .zd-app-index .works ul li .infobox .info span:nth-child(3){background:url(http://www.qiaxiaojiu.com:4000/images/msg.png) no-repeat left;}
+    .zd-app-index .works ul li .infobox .info span:nth-child(1){background:url(https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/eye.png) no-repeat left;}
+    .zd-app-index .works ul li .infobox .info span:nth-child(2){background:url(https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/birth.png) no-repeat left;}
+    .zd-app-index .works ul li .infobox .info span:nth-child(3){background:url(https://inling.oss-cn-beijing.aliyuncs.com/illustration/images/msg.png) no-repeat left;}
 
     .zd-app-index .works ul li .userinfo{padding: 10px; border-top: 1px #f1f1f1 solid;}
     .zd-app-index .works ul li .userinfo img{width: 21px; height: 21px; float:left;  border-radius: 100%;}

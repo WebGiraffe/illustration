@@ -1,7 +1,7 @@
 <template>
         <div class="jyxnav">
         <div class="nav-content">
-            <router-link to="/" class="d1"><img src="../../public/img/jyx-active/logo4.png" alt=""></router-link>
+            <router-link to="/" class="d1"><img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/jyx-active/logo4.png" alt=""></router-link>
             <div class="nav-content-item">
                 <ul>
                     <li>
@@ -30,7 +30,7 @@
                     </li>
                     <li>
                         <router-link to="#">
-                            <img style="height:35px;vertical-align:middle;" src="../../public/img/jyx-active/search.svg" alt="">
+                            <img style="height:35px;vertical-align:middle;" src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/jyx-active/search.svg" alt="">
                         </router-link>
                     </li>
                     <li><router-link to="#">插画课程直播</router-link></li>

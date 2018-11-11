@@ -3,7 +3,7 @@
         <div class="box">
             <transition name="slide-down">
                 <div class="pg-mac-img" v-show="isShow">
-                    <img src="/img/home/20160818104653_VsaUu.png" alt="">
+                    <img src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/home/20160818104653_VsaUu.png" alt="">
                 </div>
             </transition>
             <transition name="slide-up">
@@ -51,7 +51,7 @@
         width:100%;
         background-size: auto 100%;   
         box-sizing: border-box;
-        background: url(/img/home/shanshui.png) no-repeat;
+        background: url(https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/home/shanshui.png) no-repeat;
         background-size: cover
     }
     .app_page_2 .box{

@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="dt-content">
-                <img class="pg-logo" src="img/home/logo1.png" alt="">
+                <img class="pg-logo" src="https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/home/logo1.png" alt="">
                 <div class="pg-title">中国人气最高的CG艺术家交流学习平台！</div>
                 <div class="pg-subtitle">加入我们，与百万画师一起玩涂鸦王国！</div>
                 <router-link to="index" class="to-be">
@@ -69,7 +69,7 @@
         background:rgba(0,0,0,0.1);
         overflow: hidden;
         box-sizing: border-box;
-        background-image: url(/img/home/20160818104645_f5QSv.png);
+        background-image: url(https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/home/20160818104645_f5QSv.png);
         background-size: cover;
         background-position: center;
     }
@@ -97,7 +97,7 @@
         float: left;
         width: 200px;
         height: 64px;
-        background-image: url(/img/logo2.jpg);
+        background-image: url(https://inling.oss-cn-beijing.aliyuncs.com/illustration/img/logo2.jpg);
         background-size: contain;
         background-position: 0 0px;
         background-repeat: no-repeat;
