@@ -253,6 +253,12 @@
 </script>
 <style scoped>
     body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select { padding:0; margin:0; font-family:arial; }
+    @media screen and (max-width:1440px){
+        .zd-app-index{
+            width: 1600px;
+        }
+    }
+
     .zd-app-index li { list-style:none; }
     .zd-app-index img { border:none;vertical-align:bottom; }
     .zd-app-index a { text-decoration:none; cursor: pointer;}

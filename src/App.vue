@@ -42,10 +42,10 @@
     }
 
     .fade1-enter-active {
-        transition: all 3s ease;
+        transition: all 2s ease;
     }
     .fade1-leave-active {
-        transition: all 3s ease  ;
+        transition: all 2s ease  ;
     }
     .fade1-enter {
         opacity: 0;

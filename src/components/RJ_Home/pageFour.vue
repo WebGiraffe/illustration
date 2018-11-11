@@ -87,12 +87,13 @@ import rain from "@/components/RJ_Home/rain.vue"
         left:0;
         top:0;
         height:100%;
-        width:100%;
+        
+
         background-size: auto 100%;     
     }
     .app_page_4 img{
         height:100%;
-        width: 100%;
+        /*width: 100%;*/
         min-width: 1361px;
         min-height:752px;
     }

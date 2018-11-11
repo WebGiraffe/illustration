@@ -73,7 +73,8 @@
         left:0;
         top:0;
         height:100%;
-        width:100%;
+      
+        min-width: 2880px;;
         background-size: auto 100%; 
         background:rgba(0,0,0,0.1);
         overflow: hidden;

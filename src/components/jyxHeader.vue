@@ -78,6 +78,11 @@
             width: 100%;
             height: 50px;
         }
+    @media screen and (max-width:1440px){
+        div.jyxnav{
+            width: 1440px;
+        }
+    }
         div.jyxnav>div.nav-content{
             width: 1130px;
             height: 50px;

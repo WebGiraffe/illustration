@@ -296,6 +296,11 @@
 <style scoped>
     *{margin:0;padding:0;list-style: none;text-decoration: none;box-sizing: border-box;}
 p{margin:0 !important;}
+    @media screen and (max-width:1440px){
+        #zjl-main{
+            width: 1440px;
+        }
+    }
 .btn:hover {
     text-decoration: none;
 }

@@ -45,11 +45,12 @@
 <style scoped>
         #footer{
             width:100%;
-            background-color: #2c2c2c;
+            background-color: hsl(0, 0%, 17%);
             padding:80px 0 50px;
         }
         #footer>.container>.content{
-            width:1140px;
+            width:100%;
+            min-width:1140px;
             height:224px;
             display: flex;
             justify-content: space-around;

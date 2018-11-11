@@ -312,4 +312,8 @@
         margin-left: -24px;
         animation: moveDown 1.6s linear infinite;
     }
+    .backgroundDiv{
+        min-width: 1440px;
+        min-height:860px;
+    }
 </style>
